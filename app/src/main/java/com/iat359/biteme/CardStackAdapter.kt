@@ -21,8 +21,11 @@ class CardStackAdapter(
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val recipe = recipes[position]
         holder.name.text = "${recipe.id}. ${recipe.name}"
+
+        val drawableResourceId = holder.itemView.context.resources.getIdentifier(recipe.imageName, "drawable", holder.itemView.context.packageName)
+
         Glide.with(holder.image)
-                .load(recipe.imageName)
+                .load(drawableResourceId)
                 .into(holder.image)
         holder.itemView.setOnClickListener { v ->
             Toast.makeText(v.context, recipe.name, Toast.LENGTH_SHORT).show()
@@ -45,5 +48,4 @@ class CardStackAdapter(
         val name: TextView = view.findViewById(R.id.recipe_name)
         var image: ImageView = view.findViewById(R.id.item_image)
     }
-
 }
