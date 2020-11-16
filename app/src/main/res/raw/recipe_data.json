@@ -1,7 +1,7 @@
 [
   {
     "name": "Thai Green Curry Chicken",
-    "imageName": "green-curry-chicken.jpg",
+    "imageName": "green_curry_chicken",
     "ingredients": [
       "3 tablespoons neutral oil",
       "2 lbs chicken thighs",
@@ -28,7 +28,7 @@
 
   {
     "name": "Oyakodon",
-    "imageName": "oyakodon.jpg",
+    "imageName": "oyakodon",
     "ingredients": [
       "2 boneless, skinless chicken thighs",
       "Half an onion",
@@ -56,7 +56,7 @@
 
   {
     "name": "Shakshuka",
-    "imageName": "shakshuka.jpg",
+    "imageName": "shakshuka",
     "ingredients": [
       "2 tsp olive oil",
       "4 extra large ripe tomatoes, chopped",
@@ -83,7 +83,7 @@
 
   {
     "name": "English Breakfast",
-    "imageName": "english-breakfast.jpg",
+    "imageName": "english_breakfast",
     "ingredients": [
       "2 pork sausages",
       "1 tomato",
@@ -110,7 +110,7 @@
 
   {
     "name": "Nasi Lemak",
-    "imageName": "nasi-lemak.jpg",
+    "imageName": "nasi_lemak",
     "ingredients": [
       "coconut milk steamed rice",
       "2 cups rice",
@@ -144,7 +144,7 @@
 
   {
     "name": "Mentaiko Pasta",
-    "imageName": "mentaiko-pasta.jpg",
+    "imageName": "mentaiko_pasta",
     "ingredients": [
       "90 grams karashi mentaiko ",
       "2 tablespoonsolive oil",
@@ -167,7 +167,7 @@
 
   {
     "name": "Pasta Carbonara",
-    "imageName": "pasta-carbonara.jpg",
+    "imageName": "pasta_carbonara",
     "ingredients": [
       "3 Tbsp. kosher salt, plus more",
       "4 oz. guanciale",
@@ -195,7 +195,7 @@
 
   {
     "name": "Borscht",
-    "imageName": "borscht.jpg",
+    "imageName": "borscht",
     "ingredients": [
       "3 medium beets peeled and grated",
       "4 Tbsp olive oil divided",
@@ -226,7 +226,7 @@
 
   {
     "name": "Mamaliga",
-    "imageName": "mamaliga.jpg",
+    "imageName": "mamaliga",
     "ingredients": [
       "2 cups fine yellow cornmeal",
       "2 1/2 cups water",
@@ -247,7 +247,7 @@
 
   {
     "name": "Jollof Rice",
-    "imageName": "jollof-rice.jpg",
+    "imageName": "jollof_rice",
     "ingredients": [
       "1/3 cup oil (vegetable/canola/coconut, not olive oil)",
       "6 medium-sized fresh plum/Roma tomatoes, chopped, OR a 400-gram tin of tomatoes",

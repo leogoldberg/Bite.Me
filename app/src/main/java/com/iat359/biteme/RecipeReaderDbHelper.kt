@@ -60,7 +60,7 @@ class RecipeReaderDbHelper (context: Context) : SQLiteOpenHelper(context, DATABA
     }
     companion object {
         // If you change the database schema, you must increment the database version.
-        const val DATABASE_VERSION = 5
+        const val DATABASE_VERSION = 7
         const val DATABASE_NAME = "RecipeReader.db"
     }
 }

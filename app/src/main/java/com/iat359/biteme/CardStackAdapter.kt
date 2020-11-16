@@ -1,5 +1,6 @@
 package com.iat359.biteme
 
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -10,9 +11,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 
 class CardStackAdapter(
-        private var recipes: List<Recipe> = emptyList()
+        private var recipes: List<Recipe> = emptyList(),
+        private val context: Context
 ) : RecyclerView.Adapter<CardStackAdapter.ViewHolder>() {
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val inflater = LayoutInflater.from(parent.context)
         return ViewHolder(inflater.inflate(R.layout.item_recipe, parent, false))
@@ -22,7 +23,7 @@ class CardStackAdapter(
         val recipe = recipes[position]
         holder.name.text = "${recipe.id}. ${recipe.name}"
 
-        val drawableResourceId = holder.itemView.context.resources.getIdentifier(recipe.imageName, "drawable", holder.itemView.context.packageName)
+        val drawableResourceId = context.resources.getIdentifier(recipe.imageName, "drawable", context.packageName)
 
         Glide.with(holder.image)
                 .load(drawableResourceId)

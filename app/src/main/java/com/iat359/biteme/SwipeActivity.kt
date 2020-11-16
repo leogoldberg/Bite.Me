@@ -22,26 +22,21 @@ import com.yuyakaido.android.cardstackview.*
 import java.util.*
 
 class SwipeActivity : AppCompatActivity(), CardStackListener {
-
+    private val db by lazy { RecipeDatabase(this) }
     private val drawerLayout by lazy { findViewById<DrawerLayout>(R.id.drawer_layout) }
     private val cardStackView by lazy { findViewById<CardStackView>(R.id.card_stack_view) }
     private val manager by lazy { CardStackLayoutManager(this, this) }
-    private lateinit var adapter : CardStackAdapter
-    private lateinit var recipesCached: List<Recipe>
+    private val recipesCached by lazy { db.getAllRecipeData()}
+    private val adapter by lazy { CardStackAdapter(recipesCached, this) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_swipe)
+        Log.d("data", "test call")
 
-        val model: SwipeViewModel by viewModels()
-        model.getRecipes().observe(this, { recipes ->
-            recipesCached = recipes.toMutableList()
-            adapter = CardStackAdapter(recipes)
-            Log.d("data", "loading ui $recipes")
-            setupNavigation()
-            setupCardStackView()
-            setupButton()
-        })
+        setupNavigation()
+        setupCardStackView()
+        setupButton()
     }
 
     override fun onBackPressed() {
