@@ -1,0 +1,8 @@
+com/iat359/biteme/RecipeListActivity.java
+ com.iat359.biteme.RecipeListActivity
+com/iat359/biteme/RecipeActivity.java
+ com.iat359.biteme.RecipeActivity
+com/iat359/biteme/SwipeActivity.java
+ com.iat359.biteme.SwipeActivity
+com/iat359/biteme/BuildConfig.java
+ com.iat359.biteme.BuildConfig
