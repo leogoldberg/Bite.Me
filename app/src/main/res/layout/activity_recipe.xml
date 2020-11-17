@@ -20,7 +20,7 @@
                     android:id="@+id/tvRecipeName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="50dp"
+                    android:layout_marginTop="1dp"
                     android:text="TextView"
                     android:textSize="20dp"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -30,21 +30,17 @@
                 <ImageView
                     android:id="@+id/recipeImage"
                     android:layout_width="wrap_content"
-                    android:layout_height="0dp"
-                    android:layout_marginTop="50dp"
-                    app:layout_constraintDimensionRatio="h,16:9"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/tvRecipeName"
-                    app:srcCompat="@drawable/borscht" />
+                    />
 
                 <TextView
                     android:id="@+id/tvIngredients"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="50dp"
-                    android:layout_marginTop="50dp"
-                    android:layout_marginEnd="331dp"
                     android:text="TextView"
                     android:textSize="15dp"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -55,9 +51,6 @@
                     android:id="@+id/tvRecipe"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="50dp"
-                    android:layout_marginTop="50dp"
-                    android:layout_marginEnd="331dp"
                     android:text="TextView"
                     android:textSize="15dp"
                     app:layout_constraintEnd_toEndOf="parent"

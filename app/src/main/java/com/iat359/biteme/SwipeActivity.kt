@@ -1,5 +1,6 @@
 package com.iat359.biteme
 
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
@@ -21,11 +22,12 @@ import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.DiffUtil
 import com.google.android.material.navigation.NavigationView
+import com.squareup.seismic.ShakeDetector
 import com.yuyakaido.android.cardstackview.*
 import java.lang.Exception
 import java.util.*
 
-class SwipeActivity : BaseActivity(), CardStackListener {
+class SwipeActivity : BaseActivity(), CardStackListener, ShakeDetector.Listener {
     private val db by lazy { RecipeDatabase(this) }
     private val drawerLayout by lazy { findViewById<DrawerLayout>(R.id.drawer_layout) }
     private val cardStackView by lazy { findViewById<CardStackView>(R.id.card_stack_view) }
@@ -41,7 +43,23 @@ class SwipeActivity : BaseActivity(), CardStackListener {
         setupNavigation()
         setupCardStackView()
         setupButton()
-//        println(recipesCached);
+    }
+
+    // shake detection handler
+    override fun hearShake() {
+        Log.d("shake", "shake event")
+        onCardSwiped(Direction.Left)
+    }
+
+    override fun onPause() {
+        super.onPause()
+
+        val sharedPref = getPreferences(Context.MODE_PRIVATE) ?: return
+        with(sharedPref.edit()) {
+            // save the current position of the card stack view manager when activity is paused
+            putInt(getString(R.string.position), manager.topPosition)
+            apply()
+        }
     }
 
     override fun onBackPressed() {
@@ -58,29 +76,16 @@ class SwipeActivity : BaseActivity(), CardStackListener {
 
     override fun onCardSwiped(direction: Direction) {
         Log.d("CardStackView", "onCardSwiped: p = ${manager.topPosition}, d = $direction")
-        if (manager.topPosition == adapter.itemCount - 5) {
+        if (manager.topPosition == adapter.itemCount-5) {
             paginate()
         }
         try {
             if (direction == Direction.Right){
-//                android.widget.Toast.makeText(applicationContext,
-//                        "${manager.topPosition}", android.widget.Toast.LENGTH_SHORT).show()
-
-//                val queryResults = db.getSelectedRecipeData()
-
-                Intent(this, RecipeActivity::class.java).also {
-                    it.putExtra("EXTRA_NAME", recipesCached[manager.topPosition-1].name)
-                    it.putExtra("EXTRA_IMAGENAME", recipesCached[manager.topPosition-1].imageName)
-                    it.putStringArrayListExtra("EXTRA_INGREDIENTS", recipesCached[manager.topPosition-1].ingredients as ArrayList<String>?)
-                    it.putStringArrayListExtra("EXTRA_STEPS", recipesCached[manager.topPosition-1].recipeSteps as ArrayList<String>?)
-                    it.putExtra("EXTRA_RATING", recipesCached[manager.topPosition-1].rating)
-                    startActivity(it)
-                }
+                openRecipe()
             }
         } catch (e: Exception) {
             Log.d("CardSwipe", "failed")
         }
-
     }
 
     override fun onCardRewound() {
@@ -126,6 +131,18 @@ class SwipeActivity : BaseActivity(), CardStackListener {
 //            drawerLayout.closeDrawers()
 //            true
 //        }
+    }
+
+    private fun openRecipe() {
+        val position = (manager.topPosition-1) % recipesCached.size
+        Intent(this, RecipeActivity::class.java).also {
+            it.putExtra("EXTRA_NAME", recipesCached[position].name)
+            it.putExtra("EXTRA_IMAGENAME", recipesCached[position].imageName)
+            it.putStringArrayListExtra("EXTRA_INGREDIENTS", recipesCached[position].ingredients as ArrayList<String>?)
+            it.putStringArrayListExtra("EXTRA_STEPS", recipesCached[position].recipeSteps as ArrayList<String>?)
+            it.putExtra("EXTRA_RATING", recipesCached[position].rating)
+            startActivity(it)
+        }
     }
 
     private fun setupCardStackView() {
@@ -186,8 +203,17 @@ class SwipeActivity : BaseActivity(), CardStackListener {
                 supportsChangeAnimations = false
             }
         }
-    }
 
+        // check if a position has been saved for the app
+        val sharedPref = getPreferences(Context.MODE_PRIVATE) ?: return
+        if(sharedPref.contains(getString(R.string.position))) {
+            val position = sharedPref.getInt(getString(R.string.position), 0)
+            if(position < adapter.itemCount-1) {
+                cardStackView.scrollToPosition(position)
+            }
+        }
+    }
+//
     private fun paginate() {
         val old = adapter.getRecipes()
         val new = old.plus(createRecipes())
@@ -204,8 +230,9 @@ class SwipeActivity : BaseActivity(), CardStackListener {
 //        val result = DiffUtil.calculateDiff(callback)
 //        adapter.setRecipes(new)
 //        result.dispatchUpdatesTo(adapter)
+//        manager.topPosition = 0
 //    }
-//
+
 //    private fun addFirst(size: Int) {
 //        val old = adapter.getRecipes()
 //        val new = mutableListOf<Recipe>().apply {

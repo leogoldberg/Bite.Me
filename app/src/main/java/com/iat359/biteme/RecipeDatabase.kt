@@ -112,4 +112,28 @@ class RecipeDatabase(context: Context) {
         return recipes
     }
 
+    fun insertBookmark(recipe : Recipe) {
+        val cursor = db.rawQuery("SELECT name FROM " + RecipeReaderContract.BOOKMARKS_TABLE_NAME + " WHERE name='"+ recipe.name +"'", null)
+        if(cursor.count > 0) {
+            cursor.close()
+            return
+        }
+        cursor.close()
+        val ingredients = recipe.ingredients.joinToString(".,")
+        val recipeSteps = recipe.recipeSteps.joinToString(".,")
+        val values = ContentValues().apply {
+            put(RecipeEntry.NAME, recipe.name)
+            put(RecipeEntry.IMAGE_NAME, recipe.imageName)
+            put(RecipeEntry.INGREDIENTS, ingredients)
+            put(RecipeEntry.RECIPE_STEPS, recipeSteps)
+            put(RecipeEntry.RATING, recipe.rating)
+        }
+
+        db.insert(RecipeReaderContract.BOOKMARKS_TABLE_NAME, null, values)
+    }
+
+    fun deleteBookmark(name : String) {
+        db.execSQL("delete from " + RecipeReaderContract.BOOKMARKS_TABLE_NAME + " where name='" + name + "'")
+    }
+
 }

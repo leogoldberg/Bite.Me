@@ -47,6 +47,7 @@
                     android:layout_toLeftOf="@+id/rewind_button"
                     android:layout_toStartOf="@+id/rewind_button"
                     android:src="@drawable/skip_red"
+                    app:tint="@android:color/holo_red_light"
                     app:backgroundTint="@android:color/white"
                     app:fabSize="auto"
                     app:rippleColor="#22ED7563"/>
@@ -62,6 +63,7 @@
                     android:layout_centerInParent="true"
                     android:src="@drawable/rewind_blue"
                     app:backgroundTint="@android:color/white"
+                    app:tint="#5BC9FA"
                     app:fabSize="mini"
                     app:rippleColor="#225BC9FA"/>
 
@@ -74,6 +76,7 @@
                     android:layout_toEndOf="@+id/rewind_button"
                     android:src="@drawable/like_green"
                     app:backgroundTint="@android:color/white"
+                    app:tint="#6FE2B3"
                     app:fabSize="auto"
                     app:rippleColor="#226FE2B3"/>
 

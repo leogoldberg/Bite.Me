@@ -56,6 +56,7 @@ dependencies {
     def version_nav = "2.2.1"
     implementation "androidx.navigation:navigation-fragment-ktx:$version_nav"
     implementation "androidx.navigation:navigation-ui-ktx:$version_nav"
+    implementation 'com.squareup:seismic:1.0.2'
 }
 repositories {
     mavenCentral()

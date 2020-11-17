@@ -1,5 +1,6 @@
 package com.iat359.biteme
 
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -8,13 +9,14 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import kotlinx.android.synthetic.main.layout_recipe_list_item.view.*
 
-class RecipeListAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>()
+class RecipeListAdapter (context: Context): RecyclerView.Adapter<RecyclerView.ViewHolder>()
 {
-    private var items: List<Recipe> = ArrayList()
+    private var items: MutableList<Recipe> = ArrayList()
+    private val db by lazy { RecipeDatabase(context) }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         return RecipeViewHolder(
-                LayoutInflater.from(parent.context).inflate(R.layout.layout_recipe_list_item, parent, false)
+                LayoutInflater.from(parent.context).inflate(R.layout.layout_recipe_list_item, parent, false), this
         )
     }
 
@@ -28,19 +30,30 @@ class RecipeListAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>()
         }
     }
 
+    fun removeAt(position: Int) {
+        val name = items.get(position).name
+        items.removeAt(position)
+        notifyItemRemoved(position)
+        notifyItemRangeChanged(position, items.size)
+        db.deleteBookmark(name)
+
+    }
+
     override fun getItemCount(): Int {
         return items.size
     }
 
-    fun submitList(recipeList: List<Recipe>){
+    fun submitList(recipeList: MutableList<Recipe>){
         items = recipeList
     }
 
     class RecipeViewHolder
     constructor(
-            itemView: View
+            itemView: View,
+            adapter: RecipeListAdapter
     ): RecyclerView.ViewHolder(itemView){
 
+        val adapter = adapter
         val recipe_image = itemView.recipe_image
         val recipe_name = itemView.recipe_name
 
@@ -56,6 +69,10 @@ class RecipeListAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>()
                     .load(imageResId)
                     .into(recipe_image)
             recipe_name.setText(recipe.name)
+
+            itemView.delete_button.setOnClickListener{
+                adapter.removeAt(adapterPosition)
+            }
 
         }
 

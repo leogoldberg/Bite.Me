@@ -21,13 +21,13 @@ class RecipeListActivity : BaseActivity() {
     private fun initRecyclerView() {
         recipe_list_recycler_view.apply {
             layoutManager = LinearLayoutManager(this@RecipeListActivity)
-            recipeListAdapter = RecipeListAdapter()
+            recipeListAdapter = RecipeListAdapter(this@RecipeListActivity)
             adapter = recipeListAdapter
         }
     }
 
     private fun addDataSet() {
-        val data = db.getAllData(RecipeReaderContract.RECIPE_TABLE_NAME)
+        val data = db.getAllData(RecipeReaderContract.BOOKMARKS_TABLE_NAME)
         recipeListAdapter.submitList(data)
     }
 }
