@@ -2,7 +2,6 @@ package com.iat359.biteme
 
 import android.content.ContentValues
 import android.content.Context
-import android.database.sqlite.SQLiteDatabase
 import android.provider.BaseColumns
 import com.iat359.biteme.RecipeReaderContract.RecipeEntry;
 
@@ -19,12 +18,12 @@ class RecipeDatabase(context: Context) {
             put(RecipeEntry.RATING, rating)
         }
 
-        val newRowId = db.insert(RecipeReaderContract.RecipeEntry.TABLE_NAME, null, values)
+        val newRowId = db.insert(RecipeReaderContract.RECIPE_TABLE_NAME, null, values)
 
         return newRowId;
     }
 
-    fun getAllRecipeData() : MutableList<Recipe> {
+    fun getAllData(tableName : String) : MutableList<Recipe> {
         val projection = arrayOf(
                 BaseColumns._ID,
                 RecipeEntry.NAME,
@@ -35,7 +34,7 @@ class RecipeDatabase(context: Context) {
         )
 
         val cursor = db.query(
-                RecipeEntry.TABLE_NAME,
+                tableName,
                 projection,
                 null,
                 null,

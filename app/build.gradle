@@ -3,6 +3,7 @@ plugins {
 }
 apply plugin: 'kotlin-android'
 apply plugin: "kotlin-kapt"
+apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 29
@@ -43,6 +44,7 @@ dependencies {
     implementation 'androidx.fragment:fragment-ktx:1.1.0'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0'
     implementation 'com.google.code.gson:gson:2.8.5'
+
     // Image Loading
     implementation 'com.github.bumptech.glide:glide:4.10.0'
     kapt 'com.github.bumptech.glide:compiler:4.10.0'
@@ -50,6 +52,10 @@ dependencies {
     // View
     implementation 'com.makeramen:roundedimageview:2.3.0'
     implementation "com.yuyakaido.android:card-stack-view:2.3.4"
+
+    def version_nav = "2.2.1"
+    implementation "androidx.navigation:navigation-fragment-ktx:$version_nav"
+    implementation "androidx.navigation:navigation-ui-ktx:$version_nav"
 }
 repositories {
     mavenCentral()

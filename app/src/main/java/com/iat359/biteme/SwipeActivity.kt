@@ -2,11 +2,13 @@ package com.iat359.biteme
 
 import android.os.Bundle
 import android.util.Log
+import android.view.MenuItem
 import android.view.View
 import android.view.animation.AccelerateInterpolator
 import android.view.animation.DecelerateInterpolator
 import android.view.animation.LinearInterpolator
 import android.widget.TextView
+import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
@@ -21,12 +23,12 @@ import com.google.android.material.navigation.NavigationView
 import com.yuyakaido.android.cardstackview.*
 import java.util.*
 
-class SwipeActivity : AppCompatActivity(), CardStackListener {
+class SwipeActivity : BaseActivity(), CardStackListener {
     private val db by lazy { RecipeDatabase(this) }
     private val drawerLayout by lazy { findViewById<DrawerLayout>(R.id.drawer_layout) }
     private val cardStackView by lazy { findViewById<CardStackView>(R.id.card_stack_view) }
     private val manager by lazy { CardStackLayoutManager(this, this) }
-    private val recipesCached by lazy { db.getAllRecipeData()}
+    private val recipesCached by lazy { db.getAllData(RecipeReaderContract.RECIPE_TABLE_NAME)}
     private val adapter by lazy { CardStackAdapter(recipesCached, this) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
