@@ -2,32 +2,28 @@ package com.iat359.biteme
 
 import android.content.Context
 import android.content.Intent
+import android.hardware.Sensor
+import android.hardware.SensorEvent
+import android.hardware.SensorEventListener
+import android.hardware.SensorManager
 import android.os.Bundle
 import android.util.Log
-import android.view.MenuItem
 import android.view.View
 import android.view.animation.AccelerateInterpolator
 import android.view.animation.DecelerateInterpolator
 import android.view.animation.LinearInterpolator
 import android.widget.TextView
 import android.widget.Toast
-import androidx.activity.viewModels
-import androidx.appcompat.app.ActionBarDrawerToggle
-import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.widget.Toolbar
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
-import androidx.lifecycle.Lifecycle
-import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.DiffUtil
-import com.google.android.material.navigation.NavigationView
 import com.squareup.seismic.ShakeDetector
 import com.yuyakaido.android.cardstackview.*
-import java.lang.Exception
 import java.util.*
 
-class SwipeActivity : BaseActivity(), CardStackListener, ShakeDetector.Listener {
+
+class SwipeActivity : BaseActivity(), CardStackListener {
     private val db by lazy { RecipeDatabase(this) }
     private val drawerLayout by lazy { findViewById<DrawerLayout>(R.id.drawer_layout) }
     private val cardStackView by lazy { findViewById<CardStackView>(R.id.card_stack_view) }
@@ -35,20 +31,23 @@ class SwipeActivity : BaseActivity(), CardStackListener, ShakeDetector.Listener 
     private val recipesCached by lazy { db.getAllData(RecipeReaderContract.RECIPE_TABLE_NAME)}
     private val adapter by lazy { CardStackAdapter(recipesCached, this) }
 
+    private lateinit var sensorManager : SensorManager
+    private var acelVal = SensorManager.GRAVITY_EARTH
+    private var acelLast = SensorManager.GRAVITY_EARTH
+    private var shake = 0.00f
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // check if a position has been saved for the app
         setContentView(R.layout.activity_swipe)
         Log.d("data", "test call")
+        sensorManager = getSystemService(SENSOR_SERVICE) as SensorManager
+        sensorManager.registerListener(sensorListener, sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER), SensorManager.SENSOR_DELAY_NORMAL)
 
         setupNavigation()
         setupCardStackView()
         setupButton()
-    }
-
-    // shake detection handler
-    override fun hearShake() {
-        Log.d("shake", "shake event")
-        onCardSwiped(Direction.Left)
     }
 
     override fun onPause() {
@@ -330,6 +329,29 @@ class SwipeActivity : BaseActivity(), CardStackListener, ShakeDetector.Listener 
 //    }
     private fun createRecipes(): List<Recipe> {
         return recipesCached;
+    }
+
+    private val sensorListener: SensorEventListener = object : SensorEventListener {
+        override fun onSensorChanged(event: SensorEvent) {
+            val x = event.values[0]
+            val y = event.values[1]
+            val z = event.values[2]
+            acelLast = acelVal
+            acelVal = Math.sqrt((x * x).toDouble() + y * y + z * z).toFloat()
+            val delta: Float = acelVal - acelLast
+            shake = shake * 0.9f + delta
+            if (shake > 2) {
+                val setting = SwipeAnimationSetting.Builder()
+                        .setDirection(Direction.Left)
+                        .setDuration(Duration.Normal.duration)
+                        .setInterpolator(AccelerateInterpolator())
+                        .build()
+                manager.setSwipeAnimationSetting(setting)
+                cardStackView.swipe()
+            }
+        }
+
+        override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) {}
     }
 }
 

@@ -23,7 +23,7 @@ class RecipeDatabase(context: Context) {
         return newRowId;
     }
 
-    fun getSelectedRecipeData(searchableId : String) : MutableList<Recipe> {
+    fun getSelectedRecipeData(name : String?) : MutableList<Recipe> {
         val projection = arrayOf(
                 BaseColumns._ID,
                 RecipeEntry.NAME,
@@ -42,7 +42,7 @@ class RecipeDatabase(context: Context) {
                 null,
                 null
         )
-        val selection = BaseColumns._ID + "='" + searchableId + "'"
+        val selection = RecipeEntry.NAME + "='" + name + "'"
 
         val selectRecipes = mutableListOf<Recipe>()
         with(cursor) {

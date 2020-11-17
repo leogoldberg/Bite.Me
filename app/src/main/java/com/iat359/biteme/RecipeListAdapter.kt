@@ -1,6 +1,7 @@
 package com.iat359.biteme
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -74,6 +75,28 @@ class RecipeListAdapter (context: Context): RecyclerView.Adapter<RecyclerView.Vi
                 adapter.removeAt(adapterPosition)
             }
 
+            // put image to front of view to make it clickable
+            recipe_image.bringToFront()
+            recipe_image.setOnClickListener{
+                handleClick(recipe)
+            }
+
+            recipe_name.bringToFront()
+            recipe_name.setOnClickListener{
+                handleClick(recipe)
+            }
+
+        }
+
+        fun handleClick(recipe: Recipe) {
+            Intent(itemView.context, RecipeActivity::class.java).also {
+                it.putExtra("EXTRA_NAME", recipe.name)
+                it.putExtra("EXTRA_IMAGENAME", recipe.imageName)
+                it.putStringArrayListExtra("EXTRA_INGREDIENTS", recipe.ingredients as java.util.ArrayList<String>?)
+                it.putStringArrayListExtra("EXTRA_STEPS", recipe.recipeSteps as java.util.ArrayList<String>?)
+                it.putExtra("EXTRA_RATING", recipe.rating)
+                itemView.context.startActivity(it)
+            }
         }
 
     }
