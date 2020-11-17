@@ -2,4 +2,6 @@
     <string name="app_name">Bite.me</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="review">Review</string>
 </resources>

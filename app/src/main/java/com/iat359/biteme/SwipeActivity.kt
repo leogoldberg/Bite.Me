@@ -1,5 +1,6 @@
 package com.iat359.biteme
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.MenuItem
@@ -21,6 +22,7 @@ import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.DiffUtil
 import com.google.android.material.navigation.NavigationView
 import com.yuyakaido.android.cardstackview.*
+import java.lang.Exception
 import java.util.*
 
 class SwipeActivity : BaseActivity(), CardStackListener {
@@ -39,6 +41,7 @@ class SwipeActivity : BaseActivity(), CardStackListener {
         setupNavigation()
         setupCardStackView()
         setupButton()
+//        println(recipesCached);
     }
 
     override fun onBackPressed() {
@@ -58,6 +61,26 @@ class SwipeActivity : BaseActivity(), CardStackListener {
         if (manager.topPosition == adapter.itemCount - 5) {
             paginate()
         }
+        try {
+            if (direction == Direction.Right){
+//                android.widget.Toast.makeText(applicationContext,
+//                        "${manager.topPosition}", android.widget.Toast.LENGTH_SHORT).show()
+
+//                val queryResults = db.getSelectedRecipeData()
+
+                Intent(this, RecipeActivity::class.java).also {
+                    it.putExtra("EXTRA_NAME", recipesCached[manager.topPosition-1].name)
+                    it.putExtra("EXTRA_IMAGENAME", recipesCached[manager.topPosition-1].imageName)
+                    it.putStringArrayListExtra("EXTRA_INGREDIENTS", recipesCached[manager.topPosition-1].ingredients as ArrayList<String>?)
+                    it.putStringArrayListExtra("EXTRA_STEPS", recipesCached[manager.topPosition-1].recipeSteps as ArrayList<String>?)
+                    it.putExtra("EXTRA_RATING", recipesCached[manager.topPosition-1].rating)
+                    startActivity(it)
+                }
+            }
+        } catch (e: Exception) {
+            Log.d("CardSwipe", "failed")
+        }
+
     }
 
     override fun onCardRewound() {
@@ -282,3 +305,4 @@ class SwipeActivity : BaseActivity(), CardStackListener {
         return recipesCached;
     }
 }
+
