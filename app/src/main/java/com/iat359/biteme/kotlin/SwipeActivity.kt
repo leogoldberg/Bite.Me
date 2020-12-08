@@ -42,9 +42,17 @@ class SwipeActivity : BaseActivity(), CardStackListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        // Launch Intro page if first time opening app
+        val isFirstRun = getSharedPreferences("PREFERENCE", MODE_PRIVATE).getBoolean("isFirstRun", true)
+        if(isFirstRun) {
+            getSharedPreferences("PREFERENCE", MODE_PRIVATE).edit()
+                .putBoolean("isFirstRun", false).apply();
+            startActivity(Intent(this, StartActivity::class.java))
+        }
+
         // check if a position has been saved for the app
         setContentView(R.layout.activity_swipe)
-        Log.d("data", "test call")
+
         sensorManager = getSystemService(SENSOR_SERVICE) as SensorManager
         sensorManager.registerListener(sensorListener, sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER), SensorManager.SENSOR_DELAY_NORMAL)
 

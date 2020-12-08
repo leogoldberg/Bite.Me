@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.iat359.biteme">
-    <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="true" />
 
     <application
         android:allowBackup="true"
@@ -10,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Biteme">
-        <activity android:name=".kotlin.ReviewActivity"></activity>
+        <activity android:name=".kotlin.StartActivity"></activity>
+        <activity android:name=".kotlin.ReviewActivity" />
         <activity android:name=".kotlin.BaseActivity" />
         <activity android:name=".kotlin.SwipeActivity">
             <intent-filter>
@@ -22,5 +22,9 @@
         <activity android:name=".kotlin.RecipeListActivity" />
         <activity android:name=".kotlin.RecipeActivity" />
     </application>
+
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="true" />
 
 </manifest>
