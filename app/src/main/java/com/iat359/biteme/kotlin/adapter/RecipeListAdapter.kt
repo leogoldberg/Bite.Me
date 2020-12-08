@@ -68,10 +68,8 @@ class RecipeListAdapter (context: Context): RecyclerView.Adapter<RecyclerView.Vi
                     .placeholder(R.drawable.ic_launcher_background)
                     .error(R.drawable.ic_launcher_background)
 
-            val imageResId = itemView.context.resources.getIdentifier(recipe.imageName, "drawable", itemView.context.packageName)
             Glide.with(itemView.context)
-                    .applyDefaultRequestOptions(requestOptions)
-                    .load(imageResId)
+                    .load(recipe.imageName)
                     .into(recipe_image)
             recipe_name.setText(recipe.name)
 
