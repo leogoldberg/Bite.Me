@@ -16,7 +16,6 @@ import android.widget.TextView
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.recyclerview.widget.DefaultItemAnimator
-import androidx.recyclerview.widget.DiffUtil
 import com.iat359.biteme.R
 import com.iat359.biteme.kotlin.adapter.CardStackAdapter
 import com.iat359.biteme.kotlin.database.RecipeDatabase
@@ -25,7 +24,10 @@ import com.iat359.biteme.kotlin.model.Recipe
 import com.yuyakaido.android.cardstackview.*
 import java.util.*
 
-
+/**
+ * Adapted from example code: https://github.com/yuyakaido/CardStackView
+ * Author: Leo Goldberg
+ * */
 class SwipeActivity : BaseActivity(), CardStackListener {
     private val db by lazy { RecipeDatabase(this) }
     private val drawerLayout by lazy { findViewById<DrawerLayout>(R.id.drawer_layout) }

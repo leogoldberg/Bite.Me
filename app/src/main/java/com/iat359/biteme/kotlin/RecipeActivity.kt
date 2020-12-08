@@ -25,6 +25,10 @@ import com.iat359.biteme.kotlin.model.RecipeFirestore
 
 import kotlinx.android.synthetic.main.activity_recipe.*
 
+/**
+ * Adapted from example code: https://github.com/firebase/quickstart-android/tree/master/firestore
+ * Author: Leo Goldberg
+ * */
 class RecipeActivity : BaseActivity(), EventListener<DocumentSnapshot> {
     private val db by lazy { RecipeDatabase(this) }
     private lateinit var firestore: FirebaseFirestore

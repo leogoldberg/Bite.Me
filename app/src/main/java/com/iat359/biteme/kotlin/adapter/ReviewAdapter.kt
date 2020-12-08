@@ -16,7 +16,10 @@ import java.util.*
 
 /**
  * RecyclerView adapter for a list of [Review].
- */
+ *
+ * Adapted from example code: https://github.com/firebase/quickstart-android/tree/master/firestore
+ * Author: Leo Goldberg
+ * */
 open class ReviewAdapter(query: Query) : FirestoreAdapter<ReviewAdapter.ViewHolder>(query) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {

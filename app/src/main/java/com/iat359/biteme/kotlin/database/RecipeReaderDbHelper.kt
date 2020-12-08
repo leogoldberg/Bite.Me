@@ -39,15 +39,10 @@ private const val SQL_DELETE_ENTRIES_RECIPES = "DROP TABLE IF EXISTS ${RecipeRea
 class RecipeReaderDbHelper (context: Context) : SQLiteOpenHelper(context, DATABASE_NAME, null, DATABASE_VERSION) {
     val context = context
     override fun onCreate(db: SQLiteDatabase) {
-        // Firestore: do once
-
         // Initialize Firestore
         firestore = Firebase.firestore
 
-
-        //
         // SQLlite Setup
-        //
         db.execSQL(SQL_CREATE_ENTRIES_RECIPES)
         db.execSQL(SQL_CREATE_ENTRIES_BOOKMARKS)
 
