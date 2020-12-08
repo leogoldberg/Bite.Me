@@ -199,7 +199,6 @@ class SwipeActivity : BaseActivity(), CardStackListener {
         val old = adapter.getRecipes()
         val new = old.plus(createRecipes())
         adapter.setRecipes(new)
-        result.dispatchUpdatesTo(adapter)
     }
 
     private fun createRecipes(): List<Recipe> {
