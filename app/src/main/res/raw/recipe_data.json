@@ -1,280 +1,1129 @@
 [
-  {
-    "name": "Thai Green Curry Chicken",
-    "imageName": "green_curry_chicken",
-    "ingredients": [
-      "3 tablespoons neutral oil",
-      "2 lbs chicken thighs",
-      "1 tablespoon cornstarch",
-      "1 medium onion",
-      "4 ounces green curry paste",
-      "5 cups mixed vegetables",
-      "13.5 ounces coconut milk",
-      "1.5 cups chicken stock",
-      "5 kaffir lime leaves",
-      "1 teaspoon chili oil",
-      "2 tablespoons fish sauce",
-      "2 teaspoons sugar",
-      "0.25 cup basil leaves",
-      "steamed jasmine rice"
-    ],
-    "recipeSteps": [
-      "1. Heat a large skillet over medium high heat and add 2 tablespoons oil. Toss the chicken pieces in 1 tablespoon cornstarch and 1 tablespoon oil until well-combined. Sear the chicken pieces in the skillet until browned. Remove from the pan and set aside.",
-      "2. If there are a lot of chicken bits stuck to your pan, deglaze with a ¼ cup of water. Then add the sliced onions to the skillet and cook until translucent. Add the curry paste and cook for 5 minutes.",
-      "3. Add the vegetables and cook for 30 seconds. Add the coconut milk, chicken stock, lime leaves (if using), chili (if using), and the seared chicken pieces. Bring to a simmer and lower the heat. Cover and simmer for 10 minutes. After the curry has finished simmering, stir in the fish sauce, sugar, and basil. Serve with steamed rice."
-    ],
-    "rating": 4.5
-  },
+	{
+		"name": "Chicken Egg Foo Young",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fegg-foo-yung.jpg?alt=media&token=bc514faa-3702-495f-ad52-fbf3b2277478", 
+		"ingredients": [
+			"For the pancakes:",
+			"10 ounces boneless skinless chicken breast or thighs (280g, cut into small cubes)",
+			"1 tablespoon water",
+			"1 teaspoon soy sauce",
+			"2 teaspoons cornstarch (divided)",
+			"1 tablespoon vegetable or peanut oil (plus 4-6 cups for frying, depending on the size of your wok)",
+			"1 medium onion (about 1 ½ cups diced)",
+			"2 cups mung bean sprouts",
+			"6 large eggs",
+			"¼ teaspoon sesame oil",
+			"1 scallion (chopped)",
+			"Sesame seeds (optional)",
+			"For the gravy:",
+			"1 tablespoon vegetable or peanut oil",
+			"1 tablespoon flour",
+			"1/2 teaspoon turmeric",
+			"1/2 teaspoon paprika",
+			"1/8 teaspoon garlic powder",
+			"1/8 teaspoon onion powder",
+			"3 cups low sodium chicken stock",
+			"2 teaspoons soy sauce",
+			"1 tablespoon oyster sauce",
+			"1/2 teaspoon sesame oil",
+			"1/4 teaspoon white pepper (or to taste)",
+			"1/4 cup cornstarch",
+			"Salt (to taste)",
+			"1/4 cup chicken stock"
+		],
+		"recipeSteps": [
+			"Mix the cubed chicken with 1 tablespoon of water until the water is absorbed by the chicken (for more on this technique, check out our Spicy Chicken Stir-fry recipe). Add 1 teaspoon soy sauce and 1 teaspoon cornstarch until well combined, and set aside.",
+			"Next, make the gravy. In a medium pot or saucepan, heat 1 tablespoon of oil over medium heat. Add 1 tablespoon of flour to make a roux, and cook for 15-20 seconds. Stir in the turmeric, paprika, garlic powder, and onion powder. Let fry for 15 seconds, and whisk in the chicken stock.",
+			"Bring the mixture to a simmer, and add the soy sauce, oyster sauce, sesame oil, and freshly ground white pepper to taste. The gravy should be slightly thickened from the roux. Mix the cornstarch with the ¼ cup of chicken stock or water to make a slurry (i.e. until the cornstarch is completely dissolved), and slowly stir in two-thirds of the mixture. Let cook for 30 seconds. Add more of the cornstarch slurry if necessary, until the gravy is thick enough to coat a spoon. Add salt or more soy sauce to your own taste. Be careful not to over-salt the gravy. Cover and set aside.",
+			"Next, sear the chicken. Heat 1 tablespoon of oil in your wok until it just starts to smoke, and add in the marinated chicken cubes. Sear for 1 minute on each side, and then stir-fry for another minute until just cooked through. Transfer back to the marinating bowl, and set aside to cool.",
+			"In a wok or deep pot, pre-heat your 6 cups of frying oil to 350F. Use a candy thermometer to check the temperature––too high a temperature will result in burned Egg Foo Young patties, and too low a temperature will give you greasy patties or will make your patties fall apart!",
+			"Meanwhile, place the cooled chicken, diced onion, and bean sprouts into a mixing bowl. Add the eggs, sesame oil, and second teaspoon of cornstarch. Do not add any salt or seasonings to this mixture, or your Egg Foo Young patties may not hold together when frying!",
+			"Use a large soup ladle or hoak (a Chinese ladle that’s often used together with a Chinese spatula) to fold the mixture together until just combined. The eggs should look like they are slightly beaten and only just mixed with the rest of the ingredients. If you over-mix the eggs, the whole mixture will become too watery and will not form a patty during frying.",
+			"Using your ladle, work quickly to slowly drop three separate scoops of the mixture into the wok for the first batch (you can also work in batches of 2 if your wok is smaller). Each scoop should be about 3/4 cup of the mixture. The correct technique is to tilt your ladle close to the oil, and pour the mixture starting from the edge where the oil meets the wok. Pour it slowly so the ladle barely touches the oil. Don’t let the egg cook while it’s in the ladle, or it will stick to the ladle, and you won’t have a smooth drop for the next Egg Foo Young patty.",
+			"Let the patties fry for about 40 seconds. You can also use your wok spatula to gently flip some hot oil on top of the uncooked patty to speed the cooking time. When each patty is solid and turning golden brown, use your wok spatula to turn them over in the same order that you dropped them into the oil.",
+			"After another 60 seconds, scoop each patty onto a mesh strainer, giving it a few gentle taps to remove excess oil. Place each patty on a wire rack over a sheet pan to drain until all of your patties are cooked.",
+			"Transfer the Egg Foo Young patties from the cooling rack to a serving plate (ideally these are served individually, rather than on a big family-style platter), pour the gravy over the top, add a sprinkling of scallions and toasted sesame seeds, and serve with additional gravy on the side."
+		],
+		"rating": 4.5
+	},
 
-  {
-    "name": "Oyakodon",
-    "imageName": "oyakodon",
-    "ingredients": [
-      "2 boneless, skinless chicken thighs",
-      "Half an onion",
-      "2 large eggs",
-      "0.5 cup dashi",
-      "1.5 tbsp mirin",
-      "1.5 tbsp sake",
-      "1.5 tbsp soy sauce",
-      "1.5 tsp sugar"
-    ],
-    "recipeSteps": [
-      "1. Combine dashi, mirin, sake, soy sauce in a bowl or a liquid measuring cup.",
-      "2. Add sugar and mix all together until sugar is dissolved",
-      "3. Thinly slice the onion and chop mitsuba (or green onion). Beat one egg in a small bowl (you will need to beat another egg when you work on the second batch).",
-      "4. Slice the chicken thigh diagonally and cut into 1.5 inch (4 cm) pieces. I recommend using sogigiri cutting technique so the chicken will be equal thickness and create more surface area for fast cooking",
-      "5. Typically Oyakodon is made per serving, using this Oyakodon Pan. This small pan lets you slide the finished dish over the rice bowl easily while the egg is set but still runny (in Japan, eggs are safe to eat raw). To demonstrate, I use an 8-inch (small) frying pan in this recipe. To cook one serving at a time, divide the ingredients in half (we'll have to make it twice if you don't have two pans). Alternatively, you can cook 2 servings together in a big pan.",
-      "6. Add the onion in a single layer. Pour roughly ⅓ to ½ of the seasonings mixture (depending on the size of your frying pan, the amount may vary). Pour just enough sauce to cover the onion and chicken.",
-      "7. Add half of the chicken on top of the onion. Make sure the onion and chicken are evenly distributed. Turn on the heat to medium heat and bring to a boil.",
-      "8. Once boiling, lower the heat to medium-low heat. Skim off any foam or scum if you see any. Cover and cook for about 5 minutes or until chicken is no longer pink and onion is tender.",
-      "9. Taste the broth and see if you need to adjust. Slowly and evenly drizzle the beaten egg over the chicken and onion. Cook covered on medium-low heat until the egg is done to your liking. Usually, Oyakdon in Japan is served with an almost set but runny egg.",
-      "10. Add the mitsuba (or green onion) right before removing from the heat. Pour the chicken and egg on top of steamed rice and drizzle the desired amount of remaining sauce."
-    ],
-    "rating": 3.8
-  },
+	{
+		"name": "Garlic Baby Bok Choy Stir Fry",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fgarlicy-bok-choy.jpg?alt=media&token=7f939f87-365f-47b9-ac42-5648769c85a6",
+		"ingredients": [
+			"1 pound baby bok choy (450g)",
+			"2 tablespoons oil",
+			"5 cloves garlic (minced)",
+			"salt and white pepper (to taste)",
+			"1/8 teaspoon sugar"
+		],
+		"recipeSteps": [
+			"Trim the bottoms off of each bundle of bok choy, and split them in half or quarters. Just make sure all of the pieces are relatively uniform so they cook evenly. You can leave them whole if they’re very small and tender.",
+			"Wash thoroughly with cold water two to three times. These days, we’re never too cautious about making sure all of the dirt and pesticides are rinsed away. The best method is to use a large basin or sink to rinse and swirl around the vegetables letting them soak for a few minutes before draining and washing again. Shake off the excess water after the final rinse and transfer to a colander to drain. It is important to drain the vegetables well since these veggies will release quite a bit of water during the cooking process.",
+			"Heat the wok over high heat until smoking, and add 2 tablespoons oil. Swirl around the oil so the wok is coated. Add all of the garlic and immediately add the bok choy. Move quickly to stir and sauté the greens in the oil and garlic. Stir quickly so you don’t burn the garlic!",
+			"Use a folding motion to turn the vegetables or use tongs if that is easier. Once the vegetables begin to wilt, about 30 seconds, add salt, pepper, and sugar. How long you cook them from here is all personal preference. Judy likes to cook them a bit longer for a softer texture while I like them a little bit more crisp. Plate and serve immediately."
+		],
+		"rating": 4.5
+	},
 
-  {
-    "name": "Shakshuka",
-    "imageName": "shakshuka",
-    "ingredients": [
-      "2 tsp olive oil",
-      "4 extra large ripe tomatoes, chopped",
-      "2 red bell peppers, diced",
-      "1 large onion, diced",
-      "1 green jalapeno pepper, finely diced",
-      "26.5 oz Pomi brand chopped tomatoes",
-      "kosher salt, to taste",
-      "black pepper, to taste",
-      "6 large eggs"
-    ],
-    "recipeSteps": [
-      "1. You need a large nonstick deep sauté pan that has a cover. Sauté onions in olive oil until opaque and tender.",
-      "2. Add red bell pepper and continue sauteeing until it softens up.",
-      "3. Reduce heat to low. Add the fresh chopped tomatoes, cook until they are breaking apart.",
-      "4. With a slotted spoon, add the chunkiest parts of the contents of the Pomi - the majority of the sauce should remain in the carton. Add the jalapeno now also.",
-      "5. Cook for 30-40 minutes, partially cover, and stir every once in a while. If it starts to look dry, add some of the sauce from the carton, slowly , as you need it. Add the salt and pepper - I like a lot because I love salt on tomatoes.",
-      "6. The final product should be a thick sauce that just looks like a whole lot of tomatoes stuck together - with very little to no juice, that is about 1-1 1/2 inches high.",
-      "7. Crack open the eggs on top of the shakshuka, one by one, giving each their own space. The whites should overlap, but the yolk should be spaced about 4 fingerwidths from each other. My pan can fit 6-8 eggs very comfortably.",
-      "Cover tightly with a lid and simmer for 20 minutes."
-    ],
-    "rating": 4.2
-  },
+	{
+		"name": "Chicken Larb",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fchicken-larb.jpg?alt=media&token=8647c084-fdfc-4b7a-8061-265a249480c1",
+		"ingredients": [
+			"1/4 cup uncooked jasmine rice (or glutinous/sweet rice)",
+			"2 tablespoons vegetable oil",
+			"3 shallots (thinly sliced; divided)",
+			"1 1/4 pound ground chicken (570g, grind your own for the best texture)",
+			"1/2 teaspoon sugar",
+			"2 tablespoons fish sauce",
+			"2 limes, juiced",
+			"1-2 Thai bird chilies (thinly sliced)",
+			"3 scallions (thinly sliced)",
+			"1/4 cup cilantro (roughly chopped)",
+			"1/2 cup fresh mint (roughly chopped)",
+			"salt (optional)",
+			"butter, bibb, or boston lettuce (washed and thoroughly dried; can also serve with sticky rice)"
+		],
+		"recipeSteps": [
+			"In a dry wok or pan over low heat, toast the rice grains, stirring continuously until they turn golden and fragrant––about 10 minutes. Grind to a coarse powder in a mortar & pestle or spice grinder. Set aside.",
+			"Heat your wok over high heat and add 2 tablespoons of oil. Fry half the shallots in the oil until crispy. Remove the shallots from the wok, leaving behind any oil.",
+			"Place your wok back over high heat until smoking. Add the ground chicken. Stir-fry until the chicken is browned and crispy, and add in the sugar, fish sauce, and lime juice.",
+			"Stir-fry for another minute, and add the toasted rice powder, chilies, the rest of the raw shallots, scallions, cilantro, and mint. Stir-fry for one more minute, and then taste for seasoning, adding salt or more chili, sugar, fish sauce, and/or lime juice to your taste if needed.",
+			"Serve in lettuce cups topped with the reserved crispy shallots."
+		],
+		"rating": 4.5
+	},
 
-  {
-    "name": "English Breakfast",
-    "imageName": "english_breakfast",
-    "ingredients": [
-      "2 pork sausages",
-      "1 tomato",
-      "2 tbsp butter",
-      "2 rashers bacon",
-      "110g (3.9 oz) mushrooms",
-      "1 (220g) (7.8 oz) tin baked beans",
-      "1 large egg",
-      "2 slices white or brown bread",
-      "salt and pepper, to taste",
-      "1 sprig parsley"
-    ],
-    "recipeSteps": [
-      "1. Set the oven to preheat to 220°C/430°F or gas 7.",
-      "2. Place a pan over medium heat and once it has warmed, brown the sausages on every side, then cook them for five minutes. Next, put them in a baking dish and bake for 10 minutes in the oven.",
-      "3. With a knife make a cross on the bottom of the tomato, then place in the baking tray together with the sausages, cross side up. Bake the tomato and the sausages for 10 minutes, then turn the heat off and leave them inside the oven, so they remain warm.",
-      "4. In the same frying pan in which you’ve fried the sausages, first melt a tablespoon of butter, then fry mushrooms and bacon over high heat for seven minutes. Once the mushrooms have softened, and the bacon is crispy transfer them to the oven, so they keep warm.",
-      "5. Add the beans to a small saucepan and cook over medium heat, stirring constantly.",
-      "6. Lastly, fry the egg, taking care that the yolk does not break and toast the bread, then spread the remaining butter over the toast.",
-      "7. Arrange the ingredients, sausages, bacon, beans, tomato, mushrooms, fried egg, and toast, on a warm place, then season with salt and pepper and serve."
-    ],
-    "rating": 3.0
-  },
+	{
+		"name": "Chicken and Broccoli with Brown Sauce",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fchicken-with-broccoli.jpg?alt=media&token=988ef4c4-70fe-4bbb-a40f-f2a1bfd70add",
+		"ingredients": [
+			"For the chicken:",
+			"12 ounces boneless skinless chicken breast (or thighs, 340g)",
+			"3 tablespoons water (45 ml)",
+			"1 tablespoon oyster sauce",
+			"1 teaspoon cornstarch",
+			"1 1/2 teaspoons vegetable oil",
+			"For the rest of the dish:",
+			"2/3 cup low sodium chicken stock (160 ml, warmed)",
+			"1 1/2 teaspoons sugar (or brown sugar)",
+			"1 1/2 tablespoons soy sauce",
+			"2 teaspoons dark soy sauce",
+			"1 tablespoon oyster sauce",
+			"1 teaspoon sesame oil",
+			"1/8 teaspoon white pepper",
+			"4 cups broccoli florets (300g)",
+			"3 tablespoons vegetable oil (divided)",
+			"2 cloves garlic (minced)",
+			"1/4 teaspoon fresh ginger (grated, optional)",
+			"1 tablespoon Shaoxing wine",
+			"2 tablespoons cornstarch (mixed with 2 tablespoons water)"
+		],
+		"recipeSteps": [
+			"Start by marinating your chicken. In a bowl, add the sliced chicken, 3 tablespoons water, 1 tablespoon oyster sauce, 1 teaspoon cornstarch, and 1 ½ teaspoons vegetable oil. Rub the marinade ingredients into the chicken with your hands until all the liquid has been absorbed by the chicken. Set aside for 10 minutes.",
+			"Next, prepare the sauce mixture. In a small bowl or measuring cup, add the warm chicken stock, sugar, soy sauce, dark soy sauce , oyster sauce, sesame oil and white pepper. Stir everything together until well combined and set aside.",
+			"Boil water in your wok and blanch the broccoli for 1 minute (or 2 minutes if you like your broccoli softer). Drain and set aside.",
+			"Clean and dry your wok. Place it over high heat until smoking. Add 2 tablespoons vegetable oil and sear the chicken until opaque on all sides (this shoul d only take about 3 minutes). Turn off the heat, remove the chicken, and set aside. The chicken will be about 90% done, but will be cooked again at the end.",
+			"Without washing the wok, set the flame to medium heat. Add another tablespoon of oil, along with the garlic and ginger (if using). Stir the garlic and ginger for 5 seconds and add the Shaoxing wine around the perimeter of the wok. Then pour in the sauce mixture. Use your wok spatula to stir the sauce around the sides of the wok to deglaze, and let it come to a simmer.",
+			"Stir up the cornstarch and water slurry and drizzle the mixture into sauce while stirring constantly. Allow the sauce to simmer for 10 to 15 seconds until thick and gravy-like.",
+			"Toss in the chicken and its juices and the blanched broccoli. Stir-fry until the chicken and broccoli is coated in the sauce.",
+			"At this point, you can make adjustments. If you like your brown sauce darker, add a dash more of dark soy sauce. Add more cornstarch slurry if your sauce is too thin, or more chicken stock or water if the sauce is too thick. Serve with steamed rice."
+		],
+		"rating": 4.5
+	},
 
-  {
-    "name": "Nasi Lemak",
-    "imageName": "nasi_lemak",
-    "ingredients": [
-      "coconut milk steamed rice",
-      "2 cups rice",
-      "3 screwpine leaves, tie them into a knot as shown above",
-      "salt to taste",
-      "1 can coconut milk (5.6 oz)",
-      "some water",
-      "1 cup water",
-      "tamarind pulp, size of a small ping pong ball",
-      "1/2 red onion",
-      "1 cup ikan bilis, dried anchovies",
-      "1 clove garlic",
-      "4 shallots",
-      "10 dried chillies",
-      "1 teaspoon belacan, prawn paste",
-      "1/4 teaspoon salt",
-      "1 tablespoon sugar",
-      "2 hard boiled eggs, cut into half",
-      "3 small fish, sardines or smelt fish",
-      "1 small cucumber, cut into slices and then quartered"
-    ],
-    "recipeSteps": [
-      "1. Just like making steamed rice, rinse your rice and drain. Add the coconut milk, a pinch of salt, and some water. Add the pandan leaves into the rice and cook your rice.",
-      "2. Rinse the dried anchovies and drain the water. Fry the anchovies until they turn light brown and put aside.",
-      "3. Pound the prawn paste together with shallots, garlic, and deseeded dried chilies with a mortar and pestle. You can also grind them with a food processor. Slice the red onion into rings. Soak the tamarind pulp in water for 15 minutes. Squeeze the tamarind constantly to extract the flavor into the water. Drain the pulp and save the tamarind juice.",
-      "4. Heat some oil in a pan and fry the spice paste until fragrant. Add in the onion rings. Add in the ikan bilis and stir well. Add tamarind juice, salt, and sugar. Simmer on low heat until the gravy thickens. Set aside.",
-      "5. Clean the small fish, cut them into half and season with salt. Deep fry. Cut the cucumber into slices and then quartered into four small pieces. Dish up the steamed coconut milk rice and pour some sambal ikan bilis on top of the rice. Serve with fried fish, cucumber slices, and hard-boiled eggs."
-    ],
-    "rating": 3.7
-  },
+	{
+		"name": "Thai Basil Shrimp Fried Rice",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fshrimp-fried-rice.jpg?alt=media&token=def9c671-7086-4d56-a5f9-2673d207e085",
+		"ingredients": [
+			"2 cups broccoli florets",
+			"4 tablespoons oil (divided)",
+			"8 oz. shrimp (225g, peeled and deveined)",
+			"1 onion (thinly sliced)",
+			"4 cups cooked rice (cool and fluff with a fork)",
+			"1 tablespoon fish sauce",
+			"1 tablespoon shaoxing wine",
+			"2 teaspoons sesame oil",
+			"1 tablespoon light soy sauce",
+			"1 teaspoon dark soy sauce",
+			"½ teaspoon salt",
+			"1/4 teaspoon ground white pepper",
+			"3 eggs (beaten)",
+			"1 cup Thai basil (roughly chopped)"
+		],
+		"recipeSteps": [
+			"Bring a pot of salted water to a boil. Blanch broccoli for 30 seconds and drain, rinsing under cold water to stop the cooking process.",
+			"Heat your wok over high heat until smoking slightly and add 2 tablespoons oil. Cook the shrimp, making sure to get a good sear, until just barely cooked through. Remove from the wok and set aside.",
+			"With the heat still on high, add another 2 tablespoons of oil and add the onion. Stir-fry for 2 minutes, until softened. Add the cooked rice to the wok, and mix, breaking up any large clumps of rice in the process. Add the fish sauce, shaoxing wine, sesame oil, soy sauces, salt and white pepper. Give everything a good stir.",
+			"Add the egg to the rice and stir rapidly, so that the egg cooks and forms a kind of glaze over each grain of rice. Add the broccoli and shrimp back to the pan, along with the Thai basil. Give everything a final stir for another minute or two, and serve."
+		],
+		"rating": 4.5
+	},
 
-  {
-    "name": "Mentaiko Pasta",
-    "imageName": "mentaiko_pasta",
-    "ingredients": [
-      "90 grams karashi mentaiko ",
-      "2 tablespoonsolive oil",
-      "1/4 cup half and half",
-      "9 grams Parmigiano Reggiano (grated)",
-      "200 grams dry spaghetti",
-      "1/4 sheet nori ",
-      "3 leaves green shiso"
-    ],
-    "recipeSteps": [
-      "1. Boil the pasta according to the package directions in well-salted water (about 1 tablespoon salt per 5 cups of water).",
-      "2. Whole mentaiko comes in the roe sacks which have a tough outer membrane. Pierce one end of it and then squeeze the roe out of membrane into the bowl, like you're squeezing toothpaste out of the tube.",
-      "3. Add the olive oil, half and half, and Parmigiano Reggiano and then whisk to combine.",
-      "4. Prepare the garnishes.",
-      "5. When the pasta is done, drain it and then add it immediately to the bowl with the Mentaiko sauce. Toss to coat the pasta evenly.",
-      "6. You can plate it using tongs and a small bowl or ladle and then garnish it with the nori and shiso."
-    ],
-    "rating": 4.7
-  },
+	{
+		"name": "Coconut Curry Chicken",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fcoconut-curry-chicken.jpg?alt=media&token=8b3c8f5e-5a0d-4dcd-befa-0ca670f047a0",
+		"ingredients": [
+			"2 tablespoons oil",
+			"3 tablespoons curry powder",
+			"1 large onion (diced)",
+			"3 cloves garlic (smashed)",
+			"14 ounces coconut milk (400 ml)",
+			"2 cups water or chicken broth (475 ml)",
+			"2 plum tomatoes (diced)",
+			"2 medium potatoes (peeled and cut into bite-sized chunks)",
+			"salt and pepper (to taste)",
+			"1 teaspoon sugar",
+			"4 boneless skinless chicken thighs",
+			"salt and white pepper (black pepper may be substituted)"
+		],
+		"recipeSteps": [
+			"Heat the oil in a large skillet or Dutch oven over low heat, and immediately add the curry powder. Let it cook in the oil for 1-2 minutes, making sure not to burn it. In the meantime, dice the onion and smash the garlic. Add them to the pot, turn the heat up to medium, and give everything a stir.",
+			"Stir in the coconut milk and water (or chicken broth). Bring to a boil. While you’re waiting for that, dice the tomatoes and prep the potatoes. Add them both to the pot and season with salt, then add the sugar. Cover the lid and simmer for 10-15 minutes, until the potatoes are cooked through.",
+			"Cut the chicken thighs into chunks and season with salt and pepper. Once the potatoes are cooked through, add the chicken to the pot and give everything a stir. Cover the lid and cook for 10 minutes. Adjust seasoning to taste, and serve with rice!"
+		],
+		"rating": 4.5
+	},
 
-  {
-    "name": "Pasta Carbonara",
-    "imageName": "pasta_carbonara",
-    "ingredients": [
-      "3 Tbsp. kosher salt, plus more",
-      "4 oz. guanciale",
-      "2 oz. Pecorino",
-      "4 large egg yolks",
-      "2 large eggs",
-      "Freshly ground black pepper",
-      "2 Tbsp. extra-virgin olive oil",
-      "1 lb. spaghetti, bucatini, or rigatoni"
-    ],
-    "recipeSteps": [
-      "1. Heat 6 qt. water in a large pot over high. When water starts to steam, add 3 Tbsp. salt and cover pot with a lid (this will bring water to a boil faster).",
-      "2. While you are waiting on the water, do a little prep. Remove 4 oz. guanciale from packaging and cut into about 1x1/4 in strips. Finely grate 2 oz. cheese and set aside one-quarter of cheese for later.",
-      "3. Whisk 4 egg yolks and 2 whole eggs in a medium bowl until no streaks remain, then stir in remaining grated cheese. Add several cranks of pepper and set aside.",
-      "4. Working next to pot, heat 2 Tbsp. oil in a large Dutch oven or other heavy pot over medium. Add guanciale and cook, stirring occasionally, until crisp around the edges, 7–10 minutes.",
-      "5. Remove pot from heat. Using a wooden spoon, fish out guanciale and transfer to a small bowl. Pour fat into a heatproof measuring cup, then add back about 3 Tbsp. to pot. Discard any remaining fat.",
-      "6. Cook 1 lb. pasta in boiling water, stirring occasionally, 2 minutes shy of package instructions. Just before pasta is finished, scoop out 1¾ cups pasta cooking liquid with same heatproof measuring cup.",
-      "7. Add 1 cup reserved pasta cooking liquid to Dutch oven and bring to a boil over medium-high. Drain pasta in a colander, then transfer to Dutch oven.",
-      "8. Cook pasta, stirring constantly and vigorously, until al dente and water is reduced by about half, about 2 minutes. Remove pot from heat.",
-      "9. Whisk ¼ cup pasta cooking liquid into reserved egg mixture, then very slowly stream into Dutch oven, stirring constantly, until cheese is melted and egg is thickened to form a glossy sauce. Season with salt, if needed. Thin sauce with remaining ½ cup pasta cooking liquid, adding a tablespoonful at a time, until it's the consistency of heavy cream (you most likely won’t use all of it).",
-      "10. Mix in guanciale and divide pasta among bowls. Top with pepper and reserved cheese."
-    ],
-    "rating": 4.3
-  },
+	{
+		"name": "Shrimp with Lobster Sauce",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fshrimp-lobster-sauce.jpg?alt=media&token=138fcc56-19dd-4c29-853f-cf11e0431ceb",
+		"ingredients": [
+			"8 oz. shrimp (21 size, or about 10 shrimp; 225g)",
+			"4 oz. ground pork (110g)",
+			"2 tablespoons vegetable oil",
+			"1 clove garlic (minced)",
+			"1 tablespoon Shaoxing wine (or cooking sherry)",
+			"1 1/2 cups low sodium chicken stock",
+			"1/2 teaspoon sesame oil",
+			"1/4 teaspoon sugar",
+			"1/2 teaspoon salt",
+			"fresh ground white pepper (to taste)",
+			"½ cup frozen peas",
+			"2 tablespoons cornstarch (mixed into a slurry with 2 tablespoons water)",
+			"1 egg (beaten slightly)",
+			"1 scallion (chopped)"
+		],
+		"recipeSteps": [
+			"Peel and devein the shrimp. Boil 2 cups of water in a large wok and stir in the ground pork. Break up any clumps and cook for about 1 minute, until the pork is no longer pink. Drain the pork in a mesh strainer and give it a quick rinse. This will give you a much clearer, cleaner sauce.",
+			"Wash your wok and place over medium high heat. Add the vegetable oil, garlic, ground pork, and shrimp and stir-fry for 10-20 seconds. Add the wine and stir-fry for another 10 seconds. Add the chicken stock, sesame oil, sugar, salt, and white pepper. Stir in the peas.",
+			"Once the mixture comes to a simmer, stir in the cornstarch slurry a little bit at a time. Let the mixture bubble and thicken. It should be able to coat a spoon, but it shouldn’t have a gloopy consistency. If it gets too thick, add a little more chicken stock. If it’s too thin, add more slurry.",
+			"Spread the slightly beaten egg and scallion across the mixture and let simmer for 5 seconds. Use your spatula to fold the egg into the sauce with a few strokes. Serve over white rice."
+		],
+		"rating": 4.5
+	},
 
-  {
-    "name": "Borscht",
-    "imageName": "borscht",
-    "ingredients": [
-      "3 medium beets peeled and grated",
-      "4 Tbsp olive oil divided",
-      "4 cups reduced sodium chicken broth + 6 cups water",
-      "3 medium yukon potatoes peeled and sliced into bite-sized pieces",
-      "2 carrots peeled and thinly sliced",
-      "2 celery ribs trimmed and finely chopped",
-      "1 small red bell pepper finely chopped, optional",
-      "1 medium onion finely chopped",
-      "4 Tbsp ketchup or 3 Tbsp tomato sauce",
-      "1 can white cannelini beans with their juice",
-      "2 bay leaves",
-      "2-3 Tbsp white vinegar or to taste",
-      "1 tsp sea salt or to taste",
-      "1/4 tsp black pepper freshly ground",
-      "1 large garlic clove pressed",
-      "3 Tbsp chopped dill"
-    ],
-    "recipeSteps": [
-      "1. Peel, grate and/or slice all vegetables, keeping sliced potatoes in cold water until ready to use.",
-      "2. Heat a large soup pot (5 1/2 Qt or larger) over medium/high heat and add 2 Tbsp olive oil. Add grated beets and sauté 10 minutes, stirring occasionally until beets are softened. ",
-      "3. Add 4 cups broth and 6 cups water. Add sliced potatoes and sliced carrots then cook for 10-15 minutes or until easily pierced with a fork.",
-      "4. While potatoes are cooking, place a large skillet over medium/high heat and add 2 Tbsp oil. Add chopped onion, celery and bell pepper. Saute stirring occasionally until softened and lightly golden (7-8 minutes). Add 4 Tbsp Ketchup and stir fry 30 seconds then transfer to the soup pot to continue cooking with the potatoes.",
-      "5. When potatoes and carrots reach desired softness, add 1 can of beans with their juice, 2 bay leaves, 2-3 Tbsp white vinegar, 1 tsp salt, 1/4 tsp black pepper, 1 pressed garlic clove, and 3 Tbsp chopped dill. Simmer for an additional 2-3 minutes and add more salt and vinegar to taste."
-    ],
-    "rating": 4.8
-  },
+	{
+		"name": "Roasted Root Vegetables with a Miso Glaze",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Froasted-root-vegetables-miso.jpg?alt=media&token=9a30c6ab-04e3-4754-a54c-fa0315c3f56a",
+		"ingredients": [
+			"1 pound carrots (450g, scrubbed and cut into large chunks)",
+			"8 medium beets (peeled cut into thin wedges)",
+			"1 large red onion (peeled and cut into wedges)",
+			"Olive Oil",
+			"Salt and pepper",
+			"3 tablespoons butter",
+			"2 cloves garlic (sliced)",
+			"2 tablespoons miso paste",
+			"2 tablespoons mirin",
+			"1 tablespoon maple syrup",
+			"¼ teaspoon cinnamon",
+			"1 scallion (chopped, optional)"
+		],
+		"recipeSteps": [
+			"Preheat the oven to 425 degrees F. Spread the vegetables out on a parchment-lined rimmed baking sheet. Drizzle with olive oil and sprinkle with salt and pepper.",
+			"Roast the veggies in the oven for 45 minutes, until crisp on the outside.",
+			"In the final 10 minutes of roasting time, make the glaze. Melt the butter in a saucepan over medium heat. Add the garlic and cook for 3 minutes. Whisk in the miso paste, mirin, maple syrup, and cinnamon. Bring to a simmer and bubble for 2 minutes.",
+			"Pour over the vegetables, toss, and arrange on a platter. Garnish with scallions if desired. Serve!"
+		],
+		"rating": 4.5
+	},
 
-  {
-    "name": "Mamaliga",
-    "imageName": "mamaliga",
-    "ingredients": [
-      "2 cups fine yellow cornmeal",
-      "2 1/2 cups water",
-      "3/4 teaspoon salt",
-      "1 tablespoon butter",
-      "1 cup salami"
-    ],
-    "recipeSteps": [
-      "1. Gather the ingredients.",
-      "2. Stir cornmeal, water, and salt together in a heavy saucepan. Bring to a boil, reduce heat and, stirring frequently, cook 12 minutes or until thick enough to be scooped. Stir in butter and adjust seasonings.",
-      "3. Heat oil in a heavy-bottomed pot or deep-fryer to 350 F.",
-      "4. Using a cookie scoop, portion out balls. Flatten mamaliga in the palm of your hand, add a chunk of salami to the center, seal completely, and roll into a ball.",
-      "5. Fry balls 2 to 3 minutes or until golden brown. Drain on paper towels.",
-      "6. Serve warm with sliced tomatoes and fresh herbs or, to be untraditional, with a marinara dipping sauce."
-    ],
-    "rating": 3.7
-  },
+	{
+		"name": "Salted Chili & Chinese Chive Frittata",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fegg-frittata.jpg?alt=media&token=92ab2be4-3ce0-499e-8d97-fec14339557d",
+		"ingredients": [
+			"6 large eggs",
+			"⅛ teaspoon sugar",
+			"1 teaspoon Shaoxing wine",
+			"¼ teaspoon ground white pepper",
+			"¼ teaspoon sesame oil",
+			"5 tablespoons vegetable oil",
+			"1½ cups Chinese chives (chopped)",
+			"¼ cup hunan chili peppers (or to taste––they are quite salty!)"
+		],
+		"recipeSteps": [
+			"First, beat the eggs, sugar, Shaoxing wine, white pepper, and sesame oil in a bowl. Heat a skillet (cast iron or non-stick works best) over medium-high heat with 5 tablespoons of oil.",
+			"Add the chives, and stir-fry until just wilted. Add the hunan chilies and distribute evenly.",
+			"Pour the eggs evenly over the mixture. If you’d like to just scramble the eggs, gently stir them until they’re just cooked, being careful not to break up the eggs too much.",
+			"If you are making a frittata, lower the heat to medium, and let the egg cook until mostly solidified. When you are ready to flip the frittata, carefully slide it onto a plate, place the pan over the plate, and quickly flip the whole thing so the frittata flips out into the pan. Continue to cook until there’s no more runny egg, and serve! It’s a little tricky, but if you want that wow factor, say a prayer, and go for it!"
+		],
+		"rating": 4.5
+	},
 
-  {
-    "name": "Jollof Rice",
-    "imageName": "jollof_rice",
-    "ingredients": [
-      "1/3 cup oil (vegetable/canola/coconut, not olive oil)",
-      "6 medium-sized fresh plum/Roma tomatoes, chopped, OR a 400-gram tin of tomatoes",
-      "6 fresh, red poblano peppers (or 4 large red bell peppers), seeds discarded",
-      "3 medium-sized red onions (1 sliced thinly, 2 roughly chopped), divided",
-      "1/2 to 1 hot pepper, or to taste (yellow Scotch bonnets are my favourite)",
-      "3 tablespoons tomato paste",
-      "2 teaspoons (Caribbean/Jamaican-style) curry powder",
-      "1 teaspoon dried thyme",
-      "2 dried bay leaves",
-      "5 to 6 cups stock (vegetable, chicken, or beef) or water, divided",
-      "2 teaspoons unsalted butter (optional), divided",
-      "4 cups uncooked converted long-grain rice or golden sella basmati, rinsed",
-      "Salt, to taste",
-      "Black and white pepper, to taste",
-      "Extra: sliced onions, tomatoes"
-    ],
-    "recipeSteps": [
-      "1. In a blender, combine tomatoes, red poblano (or bell) peppers, chopped onions, and Scotch bonnets with 2 cups of stock, blend till smooth, about a minute or two. You should have roughly 6 cups of blended mix. Pour into a large pot/ pan and bring to the boil then turn down and let simmer, covered for 10 - 12 minutes",
-      "2. In a large pan, heat oil and add the sliced onions. Season with a pinch of salt, stir-fry for 2 to 3 minutes, then add the bay leaves, curry powder and dried thyme and a pinch of black pepper for 3 - 4 minutes on medium heat. Then add the tomato paste - stir for another 2 minutes. Add the reduced tomato-pepper-Scotch bonnet mixture, stir, and set on medium heat for 10 to 12 minutes till reduced by half, with the lid on. This is the stew that will define the pot.",
-      "3. Add 4 cups of the stock to the cooked tomato sauce and bring it to boil for 1 - 2 minutes.",
-      "4. Add the rinsed rice and butter, stir, cover with a double piece of foil/baking or parchment paper and put a lid on the pan—this will seal in the steam and lock in the flavour. Turn down the heat and cook on low for 30 minutes.",
-      "5. Stir rice—taste and adjust as required.",
-      "6. If you like, add sliced onions, fresh tomatoes and the 2nd teaspoon of butter and stir through.",
-      "7. To make Party Rice, you'll need one more step. Now Party Rice is essentially Smoky Jollof Rice, traditionally cooked over an open fire. However, you can achieve the same results on the stove top. Here's how: Once the rice is cooked, turn up the heat with the lid on and leave to burn for 3 to 5 minutes. You'll hear the rice crackle and snap and it will smell toasted. Turn off the heat and leave with the lid on to rest till ready to serve. The longer the lid stays on, the smokier. Let the party begin!"
-    ],
-    "rating": 3.8
-  }
+	{
+		"name": "Coconut Rice",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fcoconut-rice.jpg?alt=media&token=a5c83cba-3160-45c6-ba00-94c3551e6d5d",
+		"ingredients": [
+			"2 cups jasmine rice",
+			"13.5 oz. coconut milk",
+			"2 teaspoons sugar",
+			"1 teaspoon salt",
+			"¼ cup toasted coconut flakes"
+		],
+		"recipeSteps": [
+			"Soak the rice in water for 15 minutes. Drain. Add the drained rice to a medium pot. In a 2-4 cup capacity wet measuring cup, pour in the can of coconut milk, and then add water until you hit just under 2 cups of liquid total. Add to the pot, along with the sugar and salt.",
+			"Put the pan on the stove and bring to a boil. Once boiling, immediately stir, cover, and reduce the heat to low. Cook until all the liquid has been absorbed, about 25 minutes. Remove from heat, fluff the rice with a fork, and keep covered until ready to serve.",
+			"Just before serving, stir in the toasted coconut flakes."
+		],
+		"rating": 4.5
+	},
 
+	{
+		"name": "Chicken Curry, Takeout-Style",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fchinese-curry-chicken.jpg?alt=media&token=10d847d5-9034-4e55-9d73-785d82d13c27",
+		"ingredients": [
+			"12 oz. boneless skinless chicken breast (340g, thinly sliced)",
+			"Vegetable oil",
+			"1 teaspoon soy sauce",
+			"2 teaspoons cornstarch (divided)",
+			"1 medium onion (halved and sliced into small wedges)",
+			"1 ½ cups chicken stock (355 ml)",
+			"4 teaspoons curry powder",
+			"1 teaspoon turmeric",
+			"1/2 teaspoon sugar",
+			"salt"
+		],
+		"recipeSteps": [
+			"In a medium bowl, combine the sliced chicken breast, 1 teaspoon vegetable oil, 1 teaspoon soy sauce, and 1 teaspoon cornstarch.",
+			"Heat your wok over high heat until smoking. Add a couple tablespoons of oil, and then add the chicken to the pan in one layer. Stir-fry the chicken just until it turns opaque, and remove from the wok. Set aside.",
+			"Add another tablespoon of oil to the wok, and add the onions. Stir-fry for one minute, then stir in the chicken stock, curry powder, turmeric, sugar, and salt to taste.",
+			"Combine the remaining 1 teaspoon of cornstarch with 2 teaspoons of water and mix until the cornstarch is dissolved. Stir it into the curry and stock mixture, and simmer for 1 minute, until thickened. If the sauce isn’t thick enough, add more cornstarch slurry. If it’s too thick, add more chicken stock.",
+			"Add the cooked chicken back to the wok, and stir for another 30 seconds. Serve with steamed rice."
+		],
+		"rating": 4.5
+	},
+
+	{
+		"name": "Salmon Teriyaki Bowls",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fsalmon-teriyaki.jpg?alt=media&token=86b14733-a19c-40be-aa39-4379bf7c2da4",
+		"ingredients": [
+			"For the teriyaki sauce:",
+			"1 slice fresh ginger (smashed with a cleaver)",
+			"1/3 cup low sodium soy sauce",
+			"¼ cup mirin",
+			"¼ cup sake or rice wine",
+			"3 tablespoons honey",
+			"1 teaspoon cornstarch (mixed into a slurry with 1 teaspoon water)",
+			"For the salmon:",
+			"4 salmon filets (with skin, 4 to 6 ounces each)",
+			"1/8 teaspoon salt",
+			"Fresh ground black pepper to taste",
+			"1/8 teaspoon garlic powder",
+			"Wasabi (optional)",
+			"1 teaspoon vegetable oil",
+			"6 cups cooked Japanese short grain rice",
+			"Toasted sesame seeds",
+			"Roasted seaweed sheets"
+		],
+		"recipeSteps": [
+			"Start by combining the ingredients for the teriyaki sauce (except the cornstarch slurry) in a small saucepan and set aside. Next, prepare your salmon. Sometimes, salmon fillets will have scales still on them. I like to use a serrated knife to carefully scrape them off. Then rinse and pat the salmon dry with a paper towel.",
+			"Rub the salmon with salt, pepper, and garlic powder. If using wasabi, you can take a small dab of wasabi and rub it onto each piece of salmon now (you can also just serve it on the side later).",
+			"Preheat your oven to 400 degrees F. Take the saucepan you prepared earlier and bring the sauce mixture to a simmer. Stir in the cornstarch slurry, and continue to simmer for 5 minutes, or until the sauce is thick enough to coat a spoon. Turn off the heat.",
+			"Add a tablespoon of oil to a cast iron skillet or other thick, oven-proof pan, and place over medium heat. Place the salmon in the pan skin-side down, and brush with a small amount of teriyaki sauce. Be careful not to let the sauce drip down the sides to the pan; if it does get to the pan, it will burn and become bitter. Sear the salmon for 3 minutes.",
+			"Brush a bit more teriyaki sauce onto the salmon, again being careful to use just enough so that it doesn’t drip down to the pan, and transfer to the preheated oven. After 3 minutes, brush more sauce on the salmon and then again after another 3 minutes.Use a knife to poke the thickest part of the salmon and spread the meat to take a peek inside. Take the salmon out of the oven early if necessary because there is a world of difference between perfectly cooked and overdone salmon!",
+			"After a final 2 minutes of baking, remove the salmon from the oven. (The salmon will have been roasting for a total of 8 minutes). Note: If you like your salmon medium rare, you can reduce the cooking time by 2 or 3 minutes.",
+			"Serve the salmon over rice and drizzle with more teriyaki sauce. Sprinkle with toasted sesame seeds and roasted seaweed. Enjoy immediately with more teriyaki sauce and wasabi on the side!"
+		],
+		"rating": 4.5
+	},
+
+	{
+		"name": "Golden Fried Rice",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fgolden-fried-rice.jpg?alt=media&token=e6d79a64-862f-446b-abd5-d09faffc77af",
+		"ingredients": [
+			"2 cups cooked white rice (refrigerated overnight)",
+			"4 egg yolks",
+			"1/2 teaspoon sea salt (or to tatse)",
+			"1 teaspoon Shaoxing wine (or dry cooking sherry)",
+			"1/4 teaspoon white pepper",
+			"1/2 teaspoon sesame oil",
+			"1/8 teaspoon turmeric (optional)",
+			"3 tablespoons vegetable oil",
+			"1/2 cup choy sum stems (or asparagus, broccoli stems, gai lan stems, etc.)",
+			"1 scallion (finely chopped)"
+		],
+		"recipeSteps": [
+			"In a medium bowl, add the cooked white rice, egg yolks, salt, Shaoxing wine, white pepper, sesame oil, and turmeric (if using). Mix until every grain of rice is well-coated. There should be no lumps or chunks of rice.",
+			"Preheat a wok over high heat until it starts to smoke. Add the oil, and swirl it around the perimeter of the wok.",
+			"Add the rice, and stir-fry continuously for 1-2 minutes.  Add the vegetables, and continue stir-frying. Once the rice grains are dry and start to pop around in the wok, taste and add an additional pinch of salt if needed. (A pinch of extra salt really brings out the flavor of this golden fried rice.) Stir in the scallions, and serve immediately."
+		],
+		"rating": 4.5
+	},
+
+	{
+		"name": "Peanut Noodles",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fgolden-fried-rice.jpg?alt=media&token=e6d79a64-862f-446b-abd5-d09faffc77af",
+		"ingredients": [
+			"200 g fresh white (wheat) noodles (7 ounces; or 100g/3.5 ounces dried)",
+			"2 cloves garlic (minced)",
+			"1 1/2 teaspoons ginger (minced or grated)",
+			"1/3 cup peanut butter (85g; creamy or chunky)",
+			"2-3 tablespoons hot water (depending on desired sauce consistency)",
+			"1 tablespoon Thai black soy sauce (we like the “Healthy Boy” brand; can substitute 1 teaspoon Chinese dark soy sauce, plus ½ - 1 teaspoon sugar to taste)",
+			"2 teaspoons light soy sauce",
+			"2 teaspoons fish sauce (or vegan fish sauce to keep the dish vegan)",
+			"1/2 teaspoon sesame oil",
+			"1 tablespoon lime juice (optional)",
+			"2 teaspoons chili oil (optional)"
+		],
+		"recipeSteps": [
+			"Bring a pot of water to a boil for the noodles. Meanwhile, prepare the garlic and ginger, and add to a serving bowl along with the peanut butter and hot water.",
+			"Stir to combine, letting the hot water loosen the peanut butter. Then stir in the sweet/dark soy sauce, light soy sauce, fish sauce, and sesame oil, along with the lime juice and chili oil if using.",
+			"By now, your water should be boiling. Cook your noodles according to package instructions. Drain and toss in your sauce. Serve."
+		],
+		"rating": 4.5
+	},
+
+	{
+		"name": "Chinese Seaweed Salad",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fchinese-seaweed-salad.jpg?alt=media&token=befe5d0c-b59b-4abd-89b3-93a2ec86610f",
+		"ingredients": [
+			"12 ounces fresh kelp (340 g)",
+			"4 cloves garlic (15g, minced)",
+			"3 thin slices ginger (8g, minced)",
+			"3 Thai chilies (thinly sliced)",
+			"2 scallions (chopped, white and green parts separated)",
+			"3 tablespoons vegetable oil",
+			"1 tablespoon Sichuan peppercorns",
+			"1 1/2 teaspoons sugar",
+			"2 teaspoons Chinese black vinegar (or to taste)",
+			"2 1/2 tablespoons light soy sauce",
+			"1 teaspoon oyster sauce",
+			"1/2-1 teaspoon sesame oil (to taste)",
+			"1/4 teaspoon salt (or to taste)",
+			"1/4 teaspoon five spice powder",
+			"1 tablespoon cilantro (chopped)"
+		],
+		"recipeSteps": [
+			"Bring a pot of water to a boil. Add the kelp, and simmer over medium heat for 5 minutes. Drain and rinse thoroughly in cold water. Drain completely and set aside. (You can also run it through a salad spinner to dry it even more.)",
+			"Next, make the sauce / dressing. In a large heat-proof bowl, arrange the minced garlic, minced ginger, Thai chilies, and the white parts of the scallions so they’re next to each other at the bottom of the bowl. Don’t pile them on top of each other, as you’ll be pouring hot oil over everything, and you want it in an even layer.",
+			"Add 3 tablespoons of oil to a small pot or saucepan. Add the Sichuan peppercorns and let them infuse the oil over low heat for 10 minutes until fragrant. Take care not to burn the peppercorns.",
+			"Scoop out the peppercorns, and turn up the heat on the oil until it’s just smoking. Then, immediately turn off the heat and pour the oil over the aromatics in your heat-proof bowl. The oil should be hot enough that the aromatics sizzle on contact.",
+			"Carefully stir the oil to evenly distribute the heat. Add the sugar, vinegar, light soy sauce, oyster sauce, sesame oil, salt, and five spice powder. Mix well, and stir in the green parts of the scallions and the cilantro.",
+			"Pour the dressing over the kelp, and toss to coat. Give it a taste, and add salt if needed. Serve."
+		],
+		"rating": 4.5
+	},
+
+	{
+		"name": "Tuna Tomato Pasta",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Ftuna-tomato-pasta.jpg?alt=media&token=a939b687-0d5f-44de-a67e-c38ebf2c2e09",
+		"ingredients": [
+			"1 pound dried pasta (such as spaghetti, thin spaghetti, angel hair, or linguine)",
+			"3 tablespoons extra virgin olive oil",
+			"10 cloves garlic (thinly sliced)",
+			"4 anchovies (at a minimum; can use up to a whole can)",
+			"1/3 cup capers (roughly chopped)",
+			"1/4 teaspoon crushed red pepper flakes",
+			"1-2 cans tuna in olive oil (5 ounce/140g cans; we recommend Cento brand. Use more or less to your own taste.)",
+			"1 jar marinara sauce (Or about 2-3 cups to taste, based on how saucy you want your pasta)",
+			"1/4 cup parsley (chopped)"
+		],
+		"recipeSteps": [
+			"Boil the pasta and heat the marinara sauce.",
+			"While that’s happening, heat a skillet with the olive oil. Saute the garlic until lightly golden. Add the anchovies and break up until dissolved. Roughly chop the capers and add them to the pan. Follow with the chili flakes.",
+			"Add the cooked pasta to the pan. Toss to coat thoroughly. Next, add the marinara one ladle at a time until all the pasta is thinly coated in sauce.",
+			"Empty 1-2 cans of tuna over the pasta, including the oil. Toss gently to distribute the tuna without breaking up the chunks too much.",
+			"Garnish with the fresh parsley and serve!"
+		],
+		"rating": 4.5
+	},
+
+	{
+		"name": "Carrot Daikon Stir-Fry",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fdaikon-stir-fry.jpg?alt=media&token=303db6f2-0e1a-404b-85d4-47347dd46d21",
+		"ingredients": [
+			"3 tablespoons vegetable oil",
+			"3 slices ginger (julienned)",
+			"3 cloves garlic (smashed and chopped)",
+			"1 medium carrot (about 75g, julienned)",
+			"1 1/2 pounds daikon radish (700g, peeled and julienned)",
+			"1 tablespoons Shaoxing wine (optional)",
+			"1 1/2 tablespoons oyster sauce (or vegetarian oyster sauce)",
+			"1/4 teaspoon white pepper",
+			"1/2 teaspoon sesame oil",
+			"1/2 teaspoon salt (or to taste)",
+			"1/4 cup water",
+			"2 scallions (sliced on a diagonal)"
+		],
+		"recipeSteps": [
+			"Heat the oil in a wok over medium heat. Add the ginger and garlic, and cook for for 20 seconds. ",
+			"Add the carrot, and stir-fry for 30 seconds––the oil should turn an orange color. Add in the daikon, turn up the heat to high, and stir-fry for another 30 seconds.",
+			"Add the Shaoxing wine (if using), oyster sauce, white pepper, sesame oil, salt, water, and the white parts of the scallions. Stir to combine, cover, and turn down the heat to medium. Simmer for 5-8 minutes until tender. ",
+			"Uncover, add in the rest of the scallions, and mix everything well. When the daikon is translucent and tender, the dish is done."
+		],
+		"rating": 4.5
+	},
+
+	{
+		"name": "6-Ingredient Instant Pot Ribs",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Finstant-pot-ribs.jpg?alt=media&token=e3d104a4-2773-49d2-96dc-764a874c6fc4",
+		"ingredients": [
+			"1 rack baby back ribs (about 3 pounds)",
+			"salt and pepper",
+			"1/4 cup brown sugar",
+			"1/2 cup apple cider vinegar",
+			"1 cup BBQ sauce (your favorite)"
+		],
+		"recipeSteps": [
+			"Season the ribs with a light, even sprinkling of salt and plenty of black pepper. Rub the brown sugar over the entire surface of the ribs. Do not remove the membrane on the back.",
+			"In your Instant Pot, pour in 1/2 cup apple cider vinegar and stand the ribs up in a half circle using the rack that the Instant Pot comes with. Cook on high pressure for 10 minutes, followed by 5 minutes of natural release. Next, carefully release the steam vent. Once the steam has completely released, open the pot and carefully transfer the ribs to a platter. ",
+			"Brush generously with barbecue sauce and either grill the ribs or bake them at 450 degrees F/230 degrees C for another 15-20 minutes, brushing every 3-5 minutes with additional barbecue sauce until caramelized."
+		],
+		"rating": 4.5
+	},
+
+	{
+		"name": "Tomato Egg Drop Soup",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Ftomato-egg-drop-soup.jpg?alt=media&token=588a2f4d-34e6-44c5-9886-298289e88ceb",
+		"ingredients": [
+		"2 tablespoons oil",
+			"10 ounces tomatoes  (1 large or 2 small, about 280g; cut into small chunks)",
+			"1 cup chicken stock (235 ml)",
+			"2 cups water (or more chicken stock; 470 ml)",
+			"2 teaspoons light soy sauce",
+			"1/2 teaspoon sesame oil",
+			"1/4 teaspoon white pepper",
+			"salt (to taste)",
+			"1 egg (beaten)",
+			"1 1/2 teaspoons cornstarch (mixed with 2 tablespoons water",
+			"1 scallion (finely chopped)",
+			"2 tablespoons cilantro (chopped, optional)"
+		],
+		"recipeSteps": [
+			"Heat the oil in a soup pot or wok over medium low heat. Add the tomato chunks and stir-fry for 5 minutes until the tomatoes are softened and start to fall apart.",
+			"Add in 1 cup chicken stock, 2 cups water, 2 teaspoons light soy sauce, 1/2 teaspoon sesame oil, 1/4 teaspoon ground white pepper and salt to taste. Bring to a boil, and then lower the heat so that the soup is simmering with the lid on.",
+			"Now quickly beat the egg in a small bowl and prepare the cornstarch slurry in a separate bowl.",
+			"Use a ladle to slowly swirl the soup in a whirlpool motion. Keep swirling as you pour in the cornstarch slurry until well incorporated. Now pour a thin stream of egg into the middle of the whirlpool as you slowly swirl the soup. This is how you get that pretty egg drop effect.",
+			"Serve hot or at room temperature. Ladle the soup into bowls and garnish with chopped scallions and cilantro, if using."
+		],
+		"rating": 4.5
+	},
+
+	{
+		"name": "Chicken Yakisoba",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fyakisoba.jpg?alt=media&token=ea362224-a95b-47a2-b343-6daf05b4a3cf",
+		"ingredients": [
+			"12 oz. fresh yakisoba noodles (340g)",
+			"1 tablespoon soy sauce",
+			"1 tablespoon oyster sauce",
+			"1 tablespoon mirin",
+			"1 1/2 teaspoons Worcestershire sauce",
+			"1 teaspoon sugar",
+			"8 oz. sliced chicken thighs or breast (225g)",
+			"2 teaspoons cornstarch",
+			"3 tablespoons oil (plus 2 teaspoons, divided)",
+			"6 fresh shiitake mushrooms (thinly sliced)",
+			"1 small onion (thinly sliced)",
+			"1 medium carrot (julienned)",
+			"2 cups cabbage (julienned)",
+			"2 scallions (julienned)"
+		],
+		"recipeSteps": [
+			"Remove the yakisoba noodles from the package, and transfer to a bowl of hot water. Gently break them up; the hot water will help loosen them. Drain thoroughly and set aside. ",
+			"In a small bowl, mix together the soy sauce, oyster sauce, mirin, Worcestershire sauce, and sugar until thoroughly combined. In a separate bowl, combine the sliced chicken with 2 teaspoons cornstarch and 2 teaspoons oil. Set aside.",
+			"Heat 1 tablespoon of oil in a wok over high heat. Add the chicken in one layer and allow to sear for 1 minute. Stir-fry for another minute, remove from the wok, and set aside.",
+			"Add 2 tablespoons of oil to the wok, along with the shiitake mushrooms. Stir-fry for 2 minutes and then add the onions, carrots, and cabbage. Stir-fry for another 2 minutes, and then add the noodles, seared chicken, scallions, and the sauce mixture. Continue to stir-fry the mixture for another 2-3 minutes until the noodles are heated through. Serve!"
+		],
+		"rating": 4.5
+	},
+
+	{
+		"name": "Lotus Root Stir-fry",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fstir-fry-lotus-root-recipe.jpg?alt=media&token=542af0f2-13a7-4e88-92b4-bf0675605dc1",
+		"ingredients": [
+			"12 ounces lotus root (340g)",
+			"8 wood ear mushrooms (rehydrated and cut in half or thirds)",
+			"1/2 cup red bell pepper (cut into small chunks)",
+			"1/4 cup chicken stock",
+			"2 teaspoons oyster sauce (or vegetarian oyster sauce; can also use gluten-free oyster sauce to make this a GF dish)",
+			"1/4-1/2 teaspoon salt (or to taste)",
+			"1/4 teaspoon sugar",
+			"1/8 teaspoon white pepper",
+			"2 tablespoons oil",
+			"6 slices ginger",
+			"2 cloves garlic (minced)",
+			"2 scallions (white parts only, cut into 1-inch pieces)",
+			"1 tablespoon Shaoxing wine",
+			"2 teaspoons cornstarch (combined with 1 tablespoon water)"
+		],
+		"recipeSteps": [
+			"Prep the lotus root by peeling them, trimming the ends, and thinly slicing them, until you have about 12 ounces (340g). Also prep your wood ear mushrooms and bell pepper.",
+			"Bring a large wok or pot of water to a boil and blanch the lotus root, wood ears, and bell peppers for 45 seconds. Drain thoroughly and set aside.",
+			"Combine the chicken stock, oyster sauce, salt, sugar, and white pepper in a small bowl to create the sauce mixture and set aside.",
+			"Add the oil to the wok over medium heat along with the ginger. Cook for 30 seconds to a minute, and then add the garlic and scallions. Cook for another 20 seconds or so, and then add the blanched vegetables.",
+			"Stir-fry the vegetables for 1 minute. Then add the Shaoxing wine around the perimeter of the wok, followed by the sauce mixture. Cook for 30 seconds, until the sauce is at a simmer, and then add the cornstarch and water mixture, making sure the cornstarch hasn’t settled.",
+			"Stir-fry for another 20-30 seconds until the sauce coats the vegetables, and serve."
+		],
+		"rating": 4.5
+	},
+
+	{
+		"name": "Sha Cha Chicken",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fsha-cha-chicken.jpg?alt=media&token=559e2271-c83a-4c39-a21a-43f20b3054fb",
+		"ingredients": [
+			"1 pound boneless skinless chicken breast (thinly sliced; can also substitute boneless skinless chicken thighs)",
+			"1 teaspoon soy sauce (plus 1 tablespoon, divided)",
+			"2 teaspoons cornstarch",
+			"Vegetable oil",
+			"1-2 tablespoons minced ginger",
+			"3 cloves garlic (thinly sliced)",
+			"2 tablespoons Sha Cha Sauce",
+			"2 teaspoon sugar",
+			"5 scallions (cut on an angle into 2-inch lengths)"
+		],
+		"recipeSteps": [
+			"In a medium bowl, add the sliced chicken breast, 1 teaspoon soy sauce, 2 teaspoons cornstarch and 1 tablespoon vegetable oil. Mix well. Heat your wok over high heat until smoking. Add 2 tablespoons vegetable oil, and sear the chicken until it just turns opaque (it can still be slightly pink). Remove the chicken from the wok and set aside.",
+			"Reduce the heat to medium, and add another couple tablespoons of oil to the wok. Add the ginger and cook for 1 minute. Add the garlic, sha cha sauce, and sugar, and fry this mixture for 2 minutes.",
+			"Then add the chicken back to the wok along with the scallions and the remaining tablespoon of soy sauce. Increase the heat to high, and stir-fry for 1 minute, until the scallions are wilted. Serve immediately with steamed rice!"
+		],
+		"rating": 4.5
+	},
+
+	{
+		"name": "Ketchup Shrimp Stir-Fry",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fketchup-shrimp.jpg?alt=media&token=4422b9e0-a92e-4434-90fb-4314a01646d1",
+		"ingredients": [
+			"12 ounces large, shell-on headless shrimp (340g, 15 to 20 size)",
+			"2 tablespoons vegetable or canola oil (divided)",
+			"7 slices fresh ginger (cut ⅛-inch thick)",
+			"1 clove garlic (sliced)",
+			"2 scallions (cut at an angle into 2-inch pieces, with the white and green parts separated)",
+			"¼ cup ketchup",
+			"1 teaspoon Worcestershire sauce (optional)",
+			"⅛ teaspoon white pepper",
+			"½ teaspoon sugar",
+			"2 tablespoons Shaoxing wine",
+			"1 tablespoon soy sauce"
+		],
+		"recipeSteps": [
+			"Rinse your shrimp under running water, and thaw if frozen. Pat dry with a paper towel. If desired, you can peel the shells off for easy eating, but do leave the tails on, as they add extra flavor when seared in the wok. (Note: We cooked and photographed this ketchup shrimp with the shells on like my mom used to do, but I have to admit, this dish may be better if the shrimp are peeled with only the tails left on.)",
+			"Heat 1 tablespoon of canola or vegetable oil in your wok until it just starts to smoke. Fry the shrimp on both sides for 20 seconds on each side (15 seconds if you peeled the shells off), and set aside. The shrimp should be 80% cooked.",
+			"Turn the heat down to low, and add another tablespoon of oil to your wok. Add the 7 slices of ginger, and let it infuse the oil for 15 seconds. Add sliced garlic and the white parts of the scallions. Turn the heat up to medium high and stir-fry everything for 10 seconds.",
+			"Add ¼ cup ketchup and 1 teaspoon Worcestershire sauce if using. Stir into the oil and fry for 15 seconds. Next, stir in the shrimp and any juices on the plate, and add ⅛ teaspoon white pepper, ½ teaspoon sugar, and 2 tablespoons Shaoxing wine.",
+			"Stir for 10 seconds, and add 1 tablespoon soy sauce. Continue to stir-fry until the sauce begins the reduce and coats the shrimp. Finally, add the rest of the scallions (the green parts).",
+			"Stir for another 10 seconds and transfer to a dish. Serve this ketchup shrimp dish with white rice and a side of veggies. This ketchup shrimp is good hot out of the wok or at room temperature so keep this in mind if you are making multiple dishes in your wok for the table."
+		],
+		"rating": 4.5
+	},
+
+	{
+		"name": "Singapore Mei Fun",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fsingapore-noodles.jpg?alt=media&token=95c414b6-d4bd-4dc3-ab24-1dc2013052c8",
+		"ingredients": [
+			"5 ounces dried vermicelli rice noodles",
+			"12 large frozen shrimp (peeled, deveined, and butterflied)",
+			"2 1/2 tablespoons vegetable oil (divided)",
+			"2 eggs (beaten)",
+			"2 cloves garlic (chopped)",
+			"4 ounces char siu (Chinese Roast Pork) (can substitute Virginia ham or Chinese Sausage/traditional sweet Lop Cheung)",
+			"3 dried red chili peppers",
+			"9 ounces napa cabbage (shredded, about 3 cups)",
+			"1 medium carrot (about 2.5 ounces/70g)",
+			"1 tablespoon Shaoxing wine (can substitute dry cooking sherry)",
+			"2 tablespoons curry powder",
+			"1 teaspoon salt or to taste",
+			"1/4 teaspoon sugar",
+			"1/8 teaspoon white pepper",
+			"2-4 tablespoons chicken stock or water (optional)",
+			"1 tablespoon vegetable oil",
+			"½ teaspoon sesame oil",
+			"1 ½ teaspoons soy sauce (can substitute GF soy sauce to make this gluten-free)",
+			"1 scallion (julienned)",
+			"½ of a red onion (about 2.5 ounces/70g, thinly sliced)"
+		],
+		"recipeSteps": [
+			"Prepare the noodles, shrimp, and eggs:",
+			"Rehydrate the rice noodles either by soaking in cold water overnight, soaking in hot water for at least 30 minutes, or boiling for 1 minute (check package instructions before boiling).",
+			"Drain the noodles in a colander just before you’re ready to cook. It’s ok if the noodles aren’t completely dry. Use kitchen shears to cut the long strands into 8-10 inch lengths, so they are easier to stir-fry and eat.",
+			"On to the shrimp. We call for a dozen large shrimp in this recipe. You can also use a larger quantity of smaller shrimp if you like, as long as it’s about 6-8 ounces/170-225g. Peel the shrimp, butterfly them from the back, and de-vein. Rinse and pat dry before cooking.",
+			"Heat your wok over medium heat, and add 1 tablespoon of oil. Add the eggs, and when they’ve cooked and bubbled along the sides, flip them over. Break the egg up into rough strips with your wok spatula. Remove from the wok and set aside.",
+			"Put it all together:",
+			"Heat your wok over medium heat, and add 1 ½ tablespoons of oil and the garlic. Cook for 15 seconds, and add the shrimp and roast pork (or ham or Chinese Sausage). Stir-fry for another 15 seconds.",
+			"Add the Shaoxing wine around the perimeter of the wok and stir-fry for another 15 seconds. Then add the dried red chili peppers, napa cabbage, and carrots. Stir-fry for 30 seconds, and add the rice noodles. Stir-fry for 1 minute, lifting the rice noodles with your spatula to loosen them.",
+			"Next, sprinkle the curry powder, salt, sugar and white pepper evenly over the noodles. (It’s best to measure these out in a pinch bowl before starting the dish.)",
+			"Stir-fry using a scooping and lifting motion to loosen the noodles and uniformly combine them with the spices, vegetables and meat. Start on one side of the wok and work your way around, making sure to firmly scrape the bottom of the wok with your spatula to prevent sticking. A hot wok is a must! You’ll see the curry color gradually coat everything to create a uniform color. It takes about 2 minutes to combine and warm everything through.",
+			"At this time, you can add some chicken stock or water if the noodles seem a bit dry. Use your own discretion on how much to add, because it depends on how hot your wok is and how much moisture was in your re-hydrated noodles and vegetables. Err on the side of more moisture, because they will not be as tasty if they have excessively dried out in the wok.",
+			"Add the sesame oil, soy sauce, and the cooked egg. Mix thoroughly again for another minute until everything is combined and heated through—you should see more steam rising.",
+			"Next, add the scallions and red onion, and continue to stir-fry for another 20 seconds. Plate and serve with chili oil."
+		],
+		"rating": 4.5
+	},
+
+	{
+		"name": "Steamed Chinese Eggplant with Spicy Lao Gan Ma",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fchinese-steamed-eggplant.jpg?alt=media&token=274c87b7-eb9c-4fab-90da-4e5eb541d710",
+		"ingredients": [
+			"1 pound Japanese or Chinese eggplant (450g, about 3 eggplants)",
+			"1/4 cup white vinegar",
+			"1 teaspoon Chinese black vinegar",
+			"2 tablespoons light soy sauce",
+			"2 teaspoon oyster sauce",
+			"1/2 teaspoon sugar",
+			"1 teaspoon sesame oil",
+			"1-1 1/2 tablespoons Lao Gan Ma chili sauce (or any chili sauce or chili oil of your choice)",
+			"4 cloves garlic (minced)",
+			"1 scallion (minced)",
+			"3 tablespoons vegetable oil"
+		],
+		"recipeSteps": [
+			"Prepare your steamer. If you’re not sure how to set up a steaming apparatus, check our our post on how to set up a steamer, even without special equipment. Turn the heat on low to pre-heat the water in the steamer.",
+			"Cut each eggplant crosswise into 3 equal sections, then cut each section into 8-10 bite-sized strips. ",
+			"Fill a large container with about 2 quarts of water and 1/4 cup white vinegar. Soak the eggplant in the vinegar water for 3 minutes. Then remove the eggplant and squeeze as much liquid out as possible. Arrange them on a heat-proof rimmed dish and carefully lower it into the steamer. Cover and turn the heat on high. Steam the eggplant for 8-10 minutes.",
+			"Now make the sauce by combining the Chinese black vinegar, light soy sauce, oyster sauce, sugar, sesame oil, and chili sauce.",
+			"Remove the eggplant from the steamer (no need to pour out the liquid in the dish), and evenly pour the sauce over the eggplant. Top it with the minced garlic and scallions. Try to keep garlic and scallions close together in a couple tight lines to make the next step easier.",
+			"Heat 3 tablespoons oil in a small saucepan until it starts to smoke lightly, and then carefully pour it over the garlic and scallion. Serve hot or cold. If serving as a cold appetizer, you can make this dish in advance."
+		],
+		"rating": 4.5
+	},
+
+	{
+		"name": "Seafood Congee",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fseafood-congee.jpg?alt=media&token=cf222551-f740-4e94-8ff9-d4671809ff52",
+		"ingredients": [
+			"8 ounces whole shrimp (heads on, with shells)",
+			"2 crabs (about ½ pound total, we used Maryland Blue Crabs)",
+			"3 tablespoons oil",
+			"4 slices ginger (julienned)",
+			"10 cups water",
+			"1 cup frozen white rice",
+			"1 tablespoon Shaoxing wine",
+			"Salt (to taste)",
+			"¼ teaspoon ground white pepper",
+			"0.5 cup cilantro (chopped)",
+			"0.5 cup scallions (chopped)"
+		],
+		"recipeSteps": [
+			"Rinse the shrimp under cold water, and remove the heads (don’t throw them away though). To clean the shrimp, cut open the back shell using kitchen shears to de-vein. Pat the shrimp dry with paper towels and set aside both the shrimp and the heads in the refrigerator.",
+			"For the crab, lift off the top shell of each crab and rinse clean using Bill’s detailed cleaning instructions in our recipe for Cantonese-style Scallion Ginger Crab for reference. Cut the cleaned crab into 4-6 pieces, and set aside in the refrigerator.",
+			"Now we’re ready to begin cooking! Heat the oil in a thick-bottomed soup pot over medium heat. Stir-fry the shrimp heads along with half of the julienned ginger for a couple of minutes, until they turn crispy and the oil turns a deep red color. Then add in the water, and bring it to a boil. Turn down the heat to medium low, and simmer for 10 minutes. After 10 minutes, turn off the heat, and scoop out/discard the shrimp heads.",
+			"Next, add the frozen white rice and Shaoxing wine, bring to a boil again, and cook for 15 minutes over medium heat. The congee should be bubbling gently. Remember to stir from the bottom periodically to prevent the rice from sticking. After 15 minutes, add in the cleaned shrimp and crab. Stir, cover, and cook for another 10 minutes--until the shrimp and crab are cooked through.",
+			"Before serving, add salt to taste, white pepper, cilantro, scallion, and the rest of the ginger. Serve immediately!"
+		],
+		"rating": 4.5
+	},
+
+	{
+		"name": "Chinese Stuffed Eggplant, Dim Sum Style",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fchinese-stuffed-eggplant.jpg?alt=media&token=39b7c11a-cd89-4212-8a52-28b77dfddaa7",
+		"ingredients": [
+			"For the eggplant:",
+			"6 oz. shrimp (170g, peeled and deveined)",
+			"3 oz. ground pork (85g, optional; can also be substituted with ground chicken, beef, or turkey)",
+			"1/2 teaspoon salt",
+			"1/4 teaspoon sugar",
+			"1/8 teaspoon white pepper",
+			"1 teaspoon sesame oil",
+			"1 tablespoon vegetable oil (plus 3 tablespoons, divided)",
+			"1 teaspoon Shaoxing wine (or dry sherry)",
+			"1 egg",
+			"1 teaspoon cornstarch",
+			"2 scallions (finely chopped, divide half for the filling and half for the sauce/garnish)",
+			"4 Japanese eggplants",
+			"For the sauce:",
+			"1 teaspoon oil",
+			"1/2 teaspoon sesame oil",
+			"1 clove garlic (minced)",
+			"1 cup chicken stock",
+			"1 tablespoon oyster sauce",
+			"1 teaspoon soy sauce",
+			"A pinch of sugar",
+			"2 tablespoons cornstarch (mixed into a slurry with 2 tablespoons water)",
+			"salt (to taste)",
+			"white pepper (to taste)"
+		],
+		"recipeSteps": [
+			"Start by making the filling for the eggplant. Place the shrimp in a food processor along with the ground pork, salt, sugar, white pepper, sesame oil, 1 tablespoon vegetable oil, and rice wine. Process until a rough paste forms. Transfer to a bowl, and stir in the egg, cornstarch, and half of the chopped scallions. Set the mixture aside in the refrigerator for 30 minutes.",
+			"Cut each eggplant into 1 1/2-inches thick slices on the diagonal. Take each slice and carefully slice through the middle, but don’t cut all the way through. The pieces should still be attached on one side. This will help keep both halves of the eggplant together.",
+			"Fill the middle of each eggplant slice with the shrimp and pork filling. Once all the slices are stuffed, heat a tablespoon of oil in a skillet over medium-high heat, and fry the slices on both sides until golden. Add a little more oil whenever the pan starts to look a little dry (you’ll only need a tablespoon at a time).",
+			"Remove from the pan and place on a heatproof plate for steaming. Prepare your steamer with 2-3 cups water (you can also use a wok with a steaming rack placed in the bottom). Heat until the water is simmering. Turn off the heat, carefully place the plate in the steamer. Cover the steamer and turn the heat back on to medium-high. Steam for 7-10 minutes. The eggplant should be very soft. Nothing worse than an under-cooked eggplant!",
+			"While the eggplant is steaming, make the sauce. Heat a saucepan over medium heat, and add 1 teaspoon oil, sesame oil, and minced garlic. Cook for 30 seconds, and then add the chicken stock, oyster sauce, soy sauce, and sugar. Season with salt and pepper to taste. Bring the sauce to a simmer, and stir in half of the cornstarch slurry. Cook for a minute to thicken. Set aside.",
+			"After the eggplant is done, pour any liquid left on the plate into the sauce. Heat the sauce and add more cornstarch slurry if it needs thickening. Stir in your reserved scallions, pour over the eggplant, and serve."
+		],
+		"rating": 4.5
+	},
+
+	{
+		"name": "Stir-Fried Clams in Black Bean Sauce",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fclam-stir-fry.jpg?alt=media&token=8a821e51-ee2a-4eb7-94ad-622ae2ee938f",
+		"ingredients": [
+			"1 1/2 pounds fresh clams (scrubbled/washed thoroughly)",
+			"2 tablespoons oil",
+			"4 slices ginger",
+			"3 cloves garlic (thinly sliced)",
+			"1 scallion (cut into 2-inch pieces)",
+			"1 long green pepper (sliced; you can de-seed if you like)",
+			"1 long red pepper (sliced)",
+			"1 tablespoon fermented black beans (rinsed and drained)",
+			"1 tablespoon Shaoxing wine",
+			"1 teaspoon sugar",
+			"1 teaspoon sesame oil",
+			"1/8 teaspoon pepper",
+			"1 teaspoon soy sauce (optional)",
+			"2 tablespoons cornstarch (mixed into a slurry with 2 tablespoons water)",
+			"3 tablespoons cilantro (chopped)"
+		],
+		"recipeSteps": [
+			"Before you do anything, make sure that your clams are washed thoroughly. There's nothing more unpleasant than finding sand in your food. When your ingredients have been prepared and you're ready to cook, heat the oil in your wok over high heat. Add the ginger and allow it to caramelize (about 20 seconds), taking care not to burn it.",
+			"Next, add the garlic, scallion, peppers and fermented black beans, and stir fry the mixture for about 10 seconds. Add the clams. Pour the Shaoxing wine around the perimeter of the wok, and immediately cover the wok. Cook until the clams begin to open. At this point, the liquid in the wok should be boiling and generating steam when the wok is covered. The time for the clams to cook and open up depends upon the size and type of the clams you are using and how hot you can get your stove. Once a good number of them have opened, remove the cover and give everything a stir.",
+			"Stir in the sugar, sesame oil, pepper. Discard any of the clams that didn't open. Now taste the sauce. If it's not salty enough, you can add a little bit of soy sauce. Once your satisfied with the flavor of the sauce, add about half of the corn starch slurry to the liquid in the wok and stir. Add more slurry if needed to further thicken the sauce.",
+			"Stir in the chopped cilantro and gently stir the mixture so the sauce coats the clams.",
+			"Serve immediately."
+		],
+		"rating": 4.5
+	},
+
+	{
+		"name": "Chinese Steamed Whole Fish",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fsteamed-whole-fish.jpg?alt=media&token=944d6eb5-8f77-4af8-8872-ba47c716d428",
+		"ingredients": [
+			"1 whole striped bass or sea bass (about 1 ½ lbs/680g, cleaned; see instructions)",
+			"3 tablespoons fresh ginger (finely julienned)",
+			"2 scallions (finely julienned with green and white parts separated)",
+			"8 sprigs fresh cilantro (roughly chopped)",
+			"¼ cup canola oil (plus 2 tablespoons)",
+			"¼ cup water",
+			"¼ teaspoon salt",
+			"¾ teaspoon sugar",
+			"¼ cup light soy sauce (or seasoned soy sauce)",
+			"Fresh ground white pepper to taste"
+		],
+		"recipeSteps": [
+		"Preparing the fish:",
+			"Remove any scales from your fish using a serrated steak knife. The areas to look for are the belly and the edges of the fish including the top, near the dorsal fins, and the head. There is nothing worse than having to pick out scales while you’re having dinner.",
+			"Cut off any fins with kitchen shears. They are pretty tough, so be careful with this step. Leave the tail and head in tact for presentation.",
+			"Look at the cavity, and you should see the backbone. You may also see a membrane that you should pierce and cut, revealing a blood line near the bone. Run your finger or a spoon across it to clean it thoroughly.",
+			"Check the head and gills. You should not see any gills left, and if there are, remove them with the kitchen shears and rinse the area clean. Older Chinese folks who like dining on the fish head will appreciate this step.",
+			"Give the fish a final rinse, shake off the excess water (no need to pat it dry) and transfer to a heat-proof plate for steaming. No salt, seasoning, or wine should be used on the fish before steaming. Repeat. Nothing on the fresh fish before steaming!",
+			"Assembling the dish:",
+			"For steaming, I used an elongated heat-proof plate. To accommodate that, I needed to MacGyver a steaming apparatus that would fit said plate. It's simple enough. I used a wok and metal steam rack. If you need more height to keep the plate above the water in the wok, set a rack on top of a metal can with both ends removed. It’s a handy and cheap addition to your kitchen arsenal!",
+			"Steam for 9 minutes and turn off the heat. Use a butter knife to peek at the meat and confirm the fish is cooked through. The meat should be opaque down to the bone, but the bone should be slightly translucent and not fully cooked (remember, you will not be eating the bone. Trust me on this one!).",
+			"Next, carefully pour off all of the liquid accumulated on the plate from steaming and spread half of the ginger, the green portions of the scallion, and the cilantro over the fish.",
+			"Heat 2 tablespoons oil and the other half of the ginger in a saucepan until the ginger begins to sizzle. Next, add the water, salt, sugar, soy sauce, and fresh ground white pepper and heat the mixture until simmering.",
+			"Once simmering, add the rest of the oil and white portions of the scallion and stir until the liquid begins to simmer and sizzle once again. Spoon the entire mixture evenly over the fish and serve hot!"
+		],
+		"rating": 4.5
+	},
+
+	{
+		"name": "Curry Udon",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fcurry-udon.jpg?alt=media&token=add3ff49-652d-42ba-93a3-213ce4eeb99c",
+		"ingredients": [
+			"½ onion (5.7 oz or 162 g)",
+			"2 green onions/scallions (finely chopped)",
+			"1 Tbsp neutral-flavored oil (vegetable, canola, etc)",
+			"6 oz thinly sliced pork loin ",
+			"1 Tbsp sake",
+			"3 cups dashi ",
+			"2 cubes Japanese curry roux ",
+			"2 tsp soy sauce",
+			"2 servings udon noodles"
+		],
+		"recipeSteps": [
+			"Gather all the ingredients. For curry roux, you will need to break into cubes and use 2 pieces. Prepare dashi with your preferred method, if you haven't made yet.",
+			"Thinly slice the onion and green onions.",
+			"In a medium pot (I used a 2.75 QT Staub), heat oil on medium heat and add the onion.",
+			"Saute the onion for 2-3 minutes, and then add the meat.",
+			"Cook the meat until almost no longer pink and add sake.",
+			"Add dashi and cover with the lid. Reduce the heat to medium-low and cook for 5 minutes.",
+			"When simmering, skim off the scum and fat from the stock and continue to cook.",
+			"Meanwhile, start boiling a large pot of water for udon.",
+			"After 5 minutes, turn off the heat. Put the cube of the curry roux in a ladle, letting dissolve one cube at a time (We'll use 2 cubes total).",
+			"With chopsticks or spoon, let the roux dissolves completely in a ladle, before releasing it to the soup. Tip: You don't want to eat a chunk of undissolved curry roux, so take your time to dissolve the roux completely.",
+			"Add soy sauce and mix well. Turn off the heat and cover the lid to keep it warm.",
+			"When water is boiling, cook your udon noodles according to the package instruction (For this Sanuki Udon, cook frozen noodles in boiling water for 1 minute).",
+			"Drain the noodles and divide into two bowls. Pour the curry over the udon noodles. Top with green onion and serve immediately."
+		],
+		"rating": 4.5
+	},
+
+	{
+		"name": "Thai Green Curry Chicken",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fgreen-curry-chicken.jpg?alt=media&token=9ad023f3-24b3-49f5-a21d-7a4ddac8fcfb", 
+		"ingredients": [
+			"3 tablespoons neutral oil",
+			"2 lbs chicken thighs",
+			"1 tablespoon cornstarch",
+			"1 medium onion",
+			"4 ounces green curry paste",
+			"5 cups mixed vegetables",
+			"13.5 ounces coconut milk",
+			"1.5 cups chicken stock",
+			"5 kaffir lime leaves",
+			"1 teaspoon chili oil",
+			"2 tablespoons fish sauce",
+			"2 teaspoons sugar",
+			"0.25 cup basil leaves",
+			"steamed jasmine rice"
+		], 
+		"recipeSteps": [
+			"1. Heat a large skillet over medium high heat and add 2 tablespoons oil. Toss the chicken pieces in 1 tablespoon cornstarch and 1 tablespoon oil until well-combined. Sear the chicken pieces in the skillet until browned. Remove from the pan and set aside.",
+			"2. If there are a lot of chicken bits stuck to your pan, deglaze with a ¼ cup of water. Then add the sliced onions to the skillet and cook until translucent. Add the curry paste and cook for 5 minutes.",
+			"3. Add the vegetables and cook for 30 seconds. Add the coconut milk, chicken stock, lime leaves (if using), chili (if using), and the seared chicken pieces. Bring to a simmer and lower the heat. Cover and simmer for 10 minutes. After the curry has finished simmering, stir in the fish sauce, sugar, and basil. Serve with steamed rice."
+		], 
+		"rating": 4.5
+	},
+
+	{
+		"name": "Oyakodon",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Foyakodon.jpg?alt=media&token=3b0be1e5-d6e7-4676-9731-9144925fe766", 
+		"ingredients": [
+			"2 boneless, skinless chicken thighs",
+			"Half an onion",
+			"2 large eggs",
+			"0.5 cup dashi",
+			"1.5 tbsp mirin",
+			"1.5 tbsp sake",
+			"1.5 tbsp soy sauce",
+			"1.5 tsp sugar"
+		], 
+		"recipeSteps": [
+			"1. Combine dashi, mirin, sake, soy sauce in a bowl or a liquid measuring cup.",
+			"2. Add sugar and mix all together until sugar is dissolved",
+			"3. Thinly slice the onion and chop mitsuba (or green onion). Beat one egg in a small bowl (you will need to beat another egg when you work on the second batch).",
+			"4. Slice the chicken thigh diagonally and cut into 1.5 inch (4 cm) pieces. I recommend using sogigiri cutting technique so the chicken will be equal thickness and create more surface area for fast cooking",
+			"5. Typically Oyakodon is made per serving, using this Oyakodon Pan. This small pan lets you slide the finished dish over the rice bowl easily while the egg is set but still runny (in Japan, eggs are safe to eat raw). To demonstrate, I use an 8-inch (small) frying pan in this recipe. To cook one serving at a time, divide the ingredients in half (we'll have to make it twice if you don't have two pans). Alternatively, you can cook 2 servings together in a big pan.",
+			"6. Add the onion in a single layer. Pour roughly ⅓ to ½ of the seasonings mixture (depending on the size of your frying pan, the amount may vary). Pour just enough sauce to cover the onion and chicken.",
+			"7. Add half of the chicken on top of the onion. Make sure the onion and chicken are evenly distributed. Turn on the heat to medium heat and bring to a boil.",
+			"8. Once boiling, lower the heat to medium-low heat. Skim off any foam or scum if you see any. Cover and cook for about 5 minutes or until chicken is no longer pink and onion is tender.",
+			"9. Taste the broth and see if you need to adjust. Slowly and evenly drizzle the beaten egg over the chicken and onion. Cook covered on medium-low heat until the egg is done to your liking. Usually, Oyakdon in Japan is served with an almost set but runny egg.",
+			"10. Add the mitsuba (or green onion) right before removing from the heat. Pour the chicken and egg on top of steamed rice and drizzle the desired amount of remaining sauce."
+		], 
+		"rating": 3.8
+	},
+
+	{
+		"name": "Shakshuka",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fshakshuka.jpg?alt=media&token=92ef3e00-fba1-4396-b609-a406c62c8f0c", 
+		"ingredients": [
+			"2 tsp olive oil",
+			"4 extra large ripe tomatoes, chopped",
+			"2 red bell peppers, diced",
+			"1 large onion, diced",
+			"1 green jalapeno pepper, finely diced",
+			"26.5 oz Pomi brand chopped tomatoes",
+			"kosher salt, to taste",
+			"black pepper, to taste",
+			"6 large eggs"
+		], 
+		"recipeSteps": [
+			"1. You need a large nonstick deep sauté pan that has a cover. Sauté onions in olive oil until opaque and tender.",
+			"2. Add red bell pepper and continue sauteeing until it softens up.",
+			"3. Reduce heat to low. Add the fresh chopped tomatoes, cook until they are breaking apart.",
+			"4. With a slotted spoon, add the chunkiest parts of the contents of the Pomi - the majority of the sauce should remain in the carton. Add the jalapeno now also.",
+			"5. Cook for 30-40 minutes, partially cover, and stir every once in a while. If it starts to look dry, add some of the sauce from the carton, slowly , as you need it. Add the salt and pepper - I like a lot because I love salt on tomatoes.",
+			"6. The final product should be a thick sauce that just looks like a whole lot of tomatoes stuck together - with very little to no juice, that is about 1-1 1/2 inches high.",
+			"7. Crack open the eggs on top of the shakshuka, one by one, giving each their own space. The whites should overlap, but the yolk should be spaced about 4 fingerwidths from each other. My pan can fit 6-8 eggs very comfortably.",
+			"Cover tightly with a lid and simmer for 20 minutes."
+		], 
+		"rating": 4.2
+	},
+
+	{
+		"name": "English Breakfast",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fenglish-breakfast.jpg?alt=media&token=7c9fd99a-a6e4-413f-a67b-9c47fefcbe5b", 
+		"ingredients": [
+			"2 pork sausages",
+			"1 tomato",
+			"2 tbsp butter",
+			"2 rashers bacon",
+			"110g (3.9 oz) mushrooms",
+			"1 (220g) (7.8 oz) tin baked beans",
+			"1 large egg",
+			"2 slices white or brown bread",
+			"salt and pepper, to taste",
+			"1 sprig parsley"
+		], 
+		"recipeSteps": [
+			"1. Set the oven to preheat to 220°C/430°F or gas 7.",
+			"2. Place a pan over medium heat and once it has warmed, brown the sausages on every side, then cook them for five minutes. Next, put them in a baking dish and bake for 10 minutes in the oven.",
+			"3. With a knife make a cross on the bottom of the tomato, then place in the baking tray together with the sausages, cross side up. Bake the tomato and the sausages for 10 minutes, then turn the heat off and leave them inside the oven, so they remain warm.",
+			"4. In the same frying pan in which you’ve fried the sausages, first melt a tablespoon of butter, then fry mushrooms and bacon over high heat for seven minutes. Once the mushrooms have softened, and the bacon is crispy transfer them to the oven, so they keep warm.",
+			"5. Add the beans to a small saucepan and cook over medium heat, stirring constantly.",
+			"6. Lastly, fry the egg, taking care that the yolk does not break and toast the bread, then spread the remaining butter over the toast.",
+			"7. Arrange the ingredients, sausages, bacon, beans, tomato, mushrooms, fried egg, and toast, on a warm place, then season with salt and pepper and serve."
+		], 
+		"rating": 3.0
+	},
+
+	{
+		"name": "Nasi Lemak",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fnasi-lemak.jpg?alt=media&token=546ed573-2e84-41eb-86bc-cff410e5b845", 
+		"ingredients": [
+			"coconut milk steamed rice",
+			"2 cups rice",
+			"3 screwpine leaves, tie them into a knot as shown above",
+			"salt to taste",
+			"1 can coconut milk (5.6 oz)",
+			"some water",
+			"1 cup water",
+			"tamarind pulp, size of a small ping pong ball",
+			"1/2 red onion",
+			"1 cup ikan bilis, dried anchovies",
+			"1 clove garlic",
+			"4 shallots",
+			"10 dried chillies",
+			"1 teaspoon belacan, prawn paste",
+			"1/4 teaspoon salt",
+			"1 tablespoon sugar",
+			"2 hard boiled eggs, cut into half",
+			"3 small fish, sardines or smelt fish",
+			"1 small cucumber, cut into slices and then quartered"
+		], 
+		"recipeSteps": [
+			"1. Just like making steamed rice, rinse your rice and drain. Add the coconut milk, a pinch of salt, and some water. Add the pandan leaves into the rice and cook your rice.",
+			"2. Rinse the dried anchovies and drain the water. Fry the anchovies until they turn light brown and put aside.",
+			"3. Pound the prawn paste together with shallots, garlic, and deseeded dried chilies with a mortar and pestle. You can also grind them with a food processor. Slice the red onion into rings. Soak the tamarind pulp in water for 15 minutes. Squeeze the tamarind constantly to extract the flavor into the water. Drain the pulp and save the tamarind juice.",
+			"4. Heat some oil in a pan and fry the spice paste until fragrant. Add in the onion rings. Add in the ikan bilis and stir well. Add tamarind juice, salt, and sugar. Simmer on low heat until the gravy thickens. Set aside.",
+			"5. Clean the small fish, cut them into half and season with salt. Deep fry. Cut the cucumber into slices and then quartered into four small pieces. Dish up the steamed coconut milk rice and pour some sambal ikan bilis on top of the rice. Serve with fried fish, cucumber slices, and hard-boiled eggs."
+		], 
+		"rating": 3.7
+	},
+
+	{
+		"name": "Mentaiko Pasta",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fmentaiko-pasta.jpg?alt=media&token=481d39ab-26b9-4c2a-a3de-475d94fb6477", 
+		"ingredients": [
+			"90 grams karashi mentaiko ",
+			"2 tablespoonsolive oil",
+			"1/4 cup half and half",
+			"9 grams Parmigiano Reggiano (grated)",
+			"200 grams dry spaghetti",
+			"1/4 sheet nori ",
+			"3 leaves green shiso"
+		], 
+		"recipeSteps": [
+			"1. Boil the pasta according to the package directions in well-salted water (about 1 tablespoon salt per 5 cups of water).",
+			"2. Whole mentaiko comes in the roe sacks which have a tough outer membrane. Pierce one end of it and then squeeze the roe out of membrane into the bowl, like you're squeezing toothpaste out of the tube.",
+			"3. Add the olive oil, half and half, and Parmigiano Reggiano and then whisk to combine.",
+			"4. Prepare the garnishes.",
+			"5. When the pasta is done, drain it and then add it immediately to the bowl with the Mentaiko sauce. Toss to coat the pasta evenly.",
+			"6. You can plate it using tongs and a small bowl or ladle and then garnish it with the nori and shiso."
+		], 
+		"rating": 4.7
+	},
+
+	{
+		"name": "Pasta Carbonara",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fpasta-carbonara.jpg?alt=media&token=0f8d51a0-9656-474e-8d0a-a100fea272da", 
+		"ingredients": [
+			"3 Tbsp. kosher salt, plus more",
+			"4 oz. guanciale",
+			"2 oz. Pecorino",
+			"4 large egg yolks",
+			"2 large eggs",
+			"Freshly ground black pepper",
+			"2 Tbsp. extra-virgin olive oil",
+			"1 lb. spaghetti, bucatini, or rigatoni"
+		], 
+		"recipeSteps": [
+			"1. Heat 6 qt. water in a large pot over high. When water starts to steam, add 3 Tbsp. salt and cover pot with a lid (this will bring water to a boil faster).",
+			"2. While you are waiting on the water, do a little prep. Remove 4 oz. guanciale from packaging and cut into about 1x1/4 in strips. Finely grate 2 oz. cheese and set aside one-quarter of cheese for later.",
+			"3. Whisk 4 egg yolks and 2 whole eggs in a medium bowl until no streaks remain, then stir in remaining grated cheese. Add several cranks of pepper and set aside.",
+			"4. Working next to pot, heat 2 Tbsp. oil in a large Dutch oven or other heavy pot over medium. Add guanciale and cook, stirring occasionally, until crisp around the edges, 7–10 minutes.",
+			"5. Remove pot from heat. Using a wooden spoon, fish out guanciale and transfer to a small bowl. Pour fat into a heatproof measuring cup, then add back about 3 Tbsp. to pot. Discard any remaining fat.",
+			"6. Cook 1 lb. pasta in boiling water, stirring occasionally, 2 minutes shy of package instructions. Just before pasta is finished, scoop out 1¾ cups pasta cooking liquid with same heatproof measuring cup.",
+			"7. Add 1 cup reserved pasta cooking liquid to Dutch oven and bring to a boil over medium-high. Drain pasta in a colander, then transfer to Dutch oven.",
+			"8. Cook pasta, stirring constantly and vigorously, until al dente and water is reduced by about half, about 2 minutes. Remove pot from heat.",
+			"9. Whisk ¼ cup pasta cooking liquid into reserved egg mixture, then very slowly stream into Dutch oven, stirring constantly, until cheese is melted and egg is thickened to form a glossy sauce. Season with salt, if needed. Thin sauce with remaining ½ cup pasta cooking liquid, adding a tablespoonful at a time, until it's the consistency of heavy cream (you most likely won’t use all of it).",
+			"10. Mix in guanciale and divide pasta among bowls. Top with pepper and reserved cheese."
+		], 
+		"rating": 4.3
+	},
+
+	{
+		"name": "Borscht",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fborscht.jpg?alt=media&token=1a504b3c-75d3-443f-9515-dc49e8c6dfa2", 
+		"ingredients": [
+			"3 medium beets peeled and grated",
+			"4 Tbsp olive oil divided",
+			"4 cups reduced sodium chicken broth + 6 cups water",
+			"3 medium yukon potatoes peeled and sliced into bite-sized pieces",
+			"2 carrots peeled and thinly sliced",
+			"2 celery ribs trimmed and finely chopped",
+			"1 small red bell pepper finely chopped, optional",
+			"1 medium onion finely chopped",
+			"4 Tbsp ketchup or 3 Tbsp tomato sauce",
+			"1 can white cannelini beans with their juice",
+			"2 bay leaves",
+			"2-3 Tbsp white vinegar or to taste",
+			"1 tsp sea salt or to taste",
+			"1/4 tsp black pepper freshly ground",
+			"1 large garlic clove pressed",
+			"3 Tbsp chopped dill"
+		], 
+		"recipeSteps": [
+			"1. Peel, grate and/or slice all vegetables, keeping sliced potatoes in cold water until ready to use.",
+			"2. Heat a large soup pot (5 1/2 Qt or larger) over medium/high heat and add 2 Tbsp olive oil. Add grated beets and sauté 10 minutes, stirring occasionally until beets are softened. ",
+			"3. Add 4 cups broth and 6 cups water. Add sliced potatoes and sliced carrots then cook for 10-15 minutes or until easily pierced with a fork.",
+			"4. While potatoes are cooking, place a large skillet over medium/high heat and add 2 Tbsp oil. Add chopped onion, celery and bell pepper. Saute stirring occasionally until softened and lightly golden (7-8 minutes). Add 4 Tbsp Ketchup and stir fry 30 seconds then transfer to the soup pot to continue cooking with the potatoes.",
+			"5. When potatoes and carrots reach desired softness, add 1 can of beans with their juice, 2 bay leaves, 2-3 Tbsp white vinegar, 1 tsp salt, 1/4 tsp black pepper, 1 pressed garlic clove, and 3 Tbsp chopped dill. Simmer for an additional 2-3 minutes and add more salt and vinegar to taste."
+		], 
+		"rating": 4.8
+	},
+
+	{
+		"name": "Mamaliga",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fmamaliga.png?alt=media&token=12c3f9bb-64e1-40da-9961-ec90e6a372ca", 
+		"ingredients": [
+			"2 cups fine yellow cornmeal",
+			"2 1/2 cups water",
+			"3/4 teaspoon salt",
+			"1 tablespoon butter",
+			"1 cup salami"
+		], 
+		"recipeSteps": [
+			"1. Gather the ingredients.",
+			"2. Stir cornmeal, water, and salt together in a heavy saucepan. Bring to a boil, reduce heat and, stirring frequently, cook 12 minutes or until thick enough to be scooped. Stir in butter and adjust seasonings.",
+			"3. Heat oil in a heavy-bottomed pot or deep-fryer to 350 F.",
+			"4. Using a cookie scoop, portion out balls. Flatten mamaliga in the palm of your hand, add a chunk of salami to the center, seal completely, and roll into a ball.",
+			"5. Fry balls 2 to 3 minutes or until golden brown. Drain on paper towels.",
+			"6. Serve warm with sliced tomatoes and fresh herbs or, to be untraditional, with a marinara dipping sauce."
+		], 
+		"rating": 3.7
+	},
+
+	{
+		"name": "Jollof Rice",
+		"imageName": "https://firebasestorage.googleapis.com/v0/b/biteme-43769.appspot.com/o/recipeImages%2Fjollof-rice.jpg?alt=media&token=dd5251a8-646e-47c9-9997-c0494cc94bb0", 
+		"ingredients": [
+			"1/3 cup oil (vegetable/canola/coconut, not olive oil)",
+			"6 medium-sized fresh plum/Roma tomatoes, chopped, OR a 400-gram tin of tomatoes",
+			"6 fresh, red poblano peppers (or 4 large red bell peppers), seeds discarded",
+			"3 medium-sized red onions (1 sliced thinly, 2 roughly chopped), divided",
+			"1/2 to 1 hot pepper, or to taste (yellow Scotch bonnets are my favourite)",
+			"3 tablespoons tomato paste",
+			"2 teaspoons (Caribbean/Jamaican-style) curry powder",
+			"1 teaspoon dried thyme",
+			"2 dried bay leaves",
+			"5 to 6 cups stock (vegetable, chicken, or beef) or water, divided",
+			"2 teaspoons unsalted butter (optional), divided",
+			"4 cups uncooked converted long-grain rice or golden sella basmati, rinsed",
+			"Salt, to taste",
+			"Black and white pepper, to taste",
+			"Extra: sliced onions, tomatoes"
+		], 
+		"recipeSteps": [
+			"1. In a blender, combine tomatoes, red poblano (or bell) peppers, chopped onions, and Scotch bonnets with 2 cups of stock, blend till smooth, about a minute or two. You should have roughly 6 cups of blended mix. Pour into a large pot/ pan and bring to the boil then turn down and let simmer, covered for 10 - 12 minutes",
+			"2. In a large pan, heat oil and add the sliced onions. Season with a pinch of salt, stir-fry for 2 to 3 minutes, then add the bay leaves, curry powder and dried thyme and a pinch of black pepper for 3 - 4 minutes on medium heat. Then add the tomato paste - stir for another 2 minutes. Add the reduced tomato-pepper-Scotch bonnet mixture, stir, and set on medium heat for 10 to 12 minutes till reduced by half, with the lid on. This is the stew that will define the pot.",
+			"3. Add 4 cups of the stock to the cooked tomato sauce and bring it to boil for 1 - 2 minutes.",
+			"4. Add the rinsed rice and butter, stir, cover with a double piece of foil/baking or parchment paper and put a lid on the pan—this will seal in the steam and lock in the flavour. Turn down the heat and cook on low for 30 minutes.",
+			"5. Stir rice—taste and adjust as required.",
+			"6. If you like, add sliced onions, fresh tomatoes and the 2nd teaspoon of butter and stir through.",
+			"7. To make Party Rice, you'll need one more step. Now Party Rice is essentially Smoky Jollof Rice, traditionally cooked over an open fire. However, you can achieve the same results on the stove top. Here's how: Once the rice is cooked, turn up the heat with the lid on and leave to burn for 3 to 5 minutes. You'll hear the rice crackle and snap and it will smell toasted. Turn off the heat and leave with the lid on to rest till ready to serve. The longer the lid stays on, the smokier. Let the party begin!"
+		], 
+		"rating": 3.8
+	}
+	
 ]

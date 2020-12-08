@@ -1,4 +1,4 @@
-package com.iat359.biteme
+package com.iat359.biteme.kotlin
 
 import android.content.Context
 import android.content.Intent
@@ -13,12 +13,15 @@ import android.view.animation.AccelerateInterpolator
 import android.view.animation.DecelerateInterpolator
 import android.view.animation.LinearInterpolator
 import android.widget.TextView
-import android.widget.Toast
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.DiffUtil
-import com.squareup.seismic.ShakeDetector
+import com.iat359.biteme.R
+import com.iat359.biteme.kotlin.adapter.CardStackAdapter
+import com.iat359.biteme.kotlin.database.RecipeDatabase
+import com.iat359.biteme.kotlin.database.RecipeReaderContract
+import com.iat359.biteme.kotlin.model.Recipe
 import com.yuyakaido.android.cardstackview.*
 import java.util.*
 
@@ -139,7 +142,6 @@ class SwipeActivity : BaseActivity(), CardStackListener {
             it.putExtra("EXTRA_IMAGENAME", recipesCached[position].imageName)
             it.putStringArrayListExtra("EXTRA_INGREDIENTS", recipesCached[position].ingredients as ArrayList<String>?)
             it.putStringArrayListExtra("EXTRA_STEPS", recipesCached[position].recipeSteps as ArrayList<String>?)
-            it.putExtra("EXTRA_RATING", recipesCached[position].rating)
             startActivity(it)
         }
     }

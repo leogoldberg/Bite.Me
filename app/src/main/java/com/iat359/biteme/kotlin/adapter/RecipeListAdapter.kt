@@ -1,4 +1,4 @@
-package com.iat359.biteme
+package com.iat359.biteme.kotlin.adapter
 
 import android.content.Context
 import android.content.Intent
@@ -8,6 +8,10 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
+import com.iat359.biteme.R
+import com.iat359.biteme.kotlin.RecipeActivity
+import com.iat359.biteme.kotlin.database.RecipeDatabase
+import com.iat359.biteme.kotlin.model.Recipe
 import kotlinx.android.synthetic.main.layout_recipe_list_item.view.*
 
 class RecipeListAdapter (context: Context): RecyclerView.Adapter<RecyclerView.ViewHolder>()
@@ -58,7 +62,7 @@ class RecipeListAdapter (context: Context): RecyclerView.Adapter<RecyclerView.Vi
         val recipe_image = itemView.recipe_image
         val recipe_name = itemView.recipe_name
 
-        fun bind(recipe:  Recipe){
+        fun bind(recipe: Recipe){
 
             val requestOptions = RequestOptions()
                     .placeholder(R.drawable.ic_launcher_background)
@@ -94,7 +98,6 @@ class RecipeListAdapter (context: Context): RecyclerView.Adapter<RecyclerView.Vi
                 it.putExtra("EXTRA_IMAGENAME", recipe.imageName)
                 it.putStringArrayListExtra("EXTRA_INGREDIENTS", recipe.ingredients as java.util.ArrayList<String>?)
                 it.putStringArrayListExtra("EXTRA_STEPS", recipe.recipeSteps as java.util.ArrayList<String>?)
-                it.putExtra("EXTRA_RATING", recipe.rating)
                 itemView.context.startActivity(it)
             }
         }

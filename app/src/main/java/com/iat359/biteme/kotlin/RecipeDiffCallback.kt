@@ -1,6 +1,7 @@
-package com.iat359.biteme
+package com.iat359.biteme.kotlin
 
 import androidx.recyclerview.widget.DiffUtil
+import com.iat359.biteme.kotlin.model.Recipe
 
 class RecipeDiffCallback(
         private val old: List<Recipe>,

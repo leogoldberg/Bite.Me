@@ -1,15 +1,20 @@
-package com.iat359.biteme
+package com.iat359.biteme.kotlin.database
 
 import android.content.ContentValues
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 import android.provider.BaseColumns
+import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.iat359.biteme.RecipeReaderContract.RecipeEntry;
-import java.io.IOException
-import java.io.InputStream
+import com.iat359.biteme.R
+import com.iat359.biteme.kotlin.database.RecipeReaderContract.RecipeEntry;
+import com.iat359.biteme.kotlin.model.Recipe
+
+private lateinit var firestore: FirebaseFirestore
 
 private const val SQL_CREATE_ENTRIES_RECIPES =
         "CREATE TABLE ${RecipeReaderContract.RECIPE_TABLE_NAME} (" +
@@ -17,8 +22,7 @@ private const val SQL_CREATE_ENTRIES_RECIPES =
                 "${RecipeEntry.NAME} TEXT," +
                 "${RecipeEntry.IMAGE_NAME} TEXT," +
                 "${RecipeEntry.INGREDIENTS} TEXT," +
-                "${RecipeEntry.RECIPE_STEPS} TEXT," +
-                "${RecipeEntry.RATING} REAL)"
+                "${RecipeEntry.RECIPE_STEPS})"
 
 private const val SQL_DELETE_ENTRIES_BOOKMARKS = "DROP TABLE IF EXISTS ${RecipeReaderContract.BOOKMARKS_TABLE_NAME}"
 
@@ -28,14 +32,22 @@ private const val SQL_CREATE_ENTRIES_BOOKMARKS =
                 "${RecipeEntry.NAME} TEXT," +
                 "${RecipeEntry.IMAGE_NAME} TEXT," +
                 "${RecipeEntry.INGREDIENTS} TEXT," +
-                "${RecipeEntry.RECIPE_STEPS} TEXT," +
-                "${RecipeEntry.RATING} REAL)"
+                "${RecipeEntry.RECIPE_STEPS})"
 
 private const val SQL_DELETE_ENTRIES_RECIPES = "DROP TABLE IF EXISTS ${RecipeReaderContract.RECIPE_TABLE_NAME}"
 
 class RecipeReaderDbHelper (context: Context) : SQLiteOpenHelper(context, DATABASE_NAME, null, DATABASE_VERSION) {
     val context = context
     override fun onCreate(db: SQLiteDatabase) {
+        // Firestore: do once
+
+        // Initialize Firestore
+        firestore = Firebase.firestore
+
+
+        //
+        // SQLlite Setup
+        //
         db.execSQL(SQL_CREATE_ENTRIES_RECIPES)
         db.execSQL(SQL_CREATE_ENTRIES_BOOKMARKS)
 
@@ -54,12 +66,23 @@ class RecipeReaderDbHelper (context: Context) : SQLiteOpenHelper(context, DATABA
                 put(RecipeEntry.IMAGE_NAME, recipe.imageName)
                 put(RecipeEntry.INGREDIENTS, ingredients)
                 put(RecipeEntry.RECIPE_STEPS, recipeSteps)
-                put(RecipeEntry.RATING, recipe.rating)
             }
 
             db.insert(RecipeReaderContract.RECIPE_TABLE_NAME, null, values)
         }
 
+        // FIRESTORE UPLOAD
+        if(UPLOAD_FIRESTORE) {
+            val recipesRef = firestore.collection("recipes")
+            // Add a bunch of random recipes
+            for (recipe in recipes) {
+                val data = hashMapOf(
+                        "numRatings" to 0.0F,
+                        "avgRating" to 0.0F
+                )
+                recipesRef.document(recipe.name).set(data)
+            }
+        }
     }
     override fun onUpgrade(db: SQLiteDatabase, oldVersion: Int, newVersion: Int) {
         // This database is only a cache for online data, so its upgrade policy is
@@ -73,7 +96,9 @@ class RecipeReaderDbHelper (context: Context) : SQLiteOpenHelper(context, DATABA
     }
     companion object {
         // If you change the database schema, you must increment the database version.
-        const val DATABASE_VERSION = 8
+        const val DATABASE_VERSION = 11
         const val DATABASE_NAME = "RecipeReader.db"
+        const val UPLOAD_FIRESTORE = false
+        private const val TAG = "DbHelper"
     }
 }

@@ -1,92 +1,147 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ReviewActivity">
+    android:orientation="vertical"
+    tools:context=".kotlin.ReviewActivity">
 
-    <Button
-        android:id="@+id/camera_button"
-        android:layout_width="wrap_content"
+    <RelativeLayout
+        android:id="@+id/reviewHeader"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="150dp"
-        android:text="Camera"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        android:elevation="4dp">
 
-    <Button
-        android:id="@+id/save_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="26dp"
-        android:text="Save"
-        app:layout_constraintBaseline_toBaselineOf="@+id/cancel_button"
-        app:layout_constraintEnd_toStartOf="@+id/cancel_button"
-        app:layout_constraintHorizontal_chainStyle="packed"
-        app:layout_constraintStart_toStartOf="parent" />
+        <ImageView
+            android:id="@+id/reviewImage"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:alpha="1.0"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/borscht" />
 
-    <Button
-        android:id="@+id/cancel_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="1dp"
-        android:text="Cancel"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/save_button"
-        app:layout_constraintTop_toBottomOf="@+id/camera_button" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/gradient_up" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="7dp"
-        android:layout_marginBottom="21dp"
-        android:ems="10"
-        android:hint="Write a review"
-        android:inputType="textPersonName"
-        android:text=""
-        app:layout_constraintBottom_toTopOf="@+id/camera_button"
-        app:layout_constraintEnd_toEndOf="@+id/ratingBar"
-        app:layout_constraintTop_toBottomOf="@+id/ratingBar" />
+        <!-- Back button -->
+        <ImageView
+            android:id="@+id/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/ic_close_white_24px" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="73dp"
-        android:layout_marginEnd="73dp"
-        android:layout_marginBottom="33dp"
-        app:layout_constraintBottom_toTopOf="@+id/ratingBar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/recipe_name" />
+        <TextView
+            android:id="@+id/recipeName"
+            style="@style/AppTheme.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/cancel_button"
+            android:layout_toLeftOf="@id/save_button"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            tools:text="Some Recipe" />
 
-    <RatingBar
-        android:id="@+id/ratingBar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginBottom="12dp"
-        android:numStars="5"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_baseline_check_24"
+            android:layout_marginRight="5dp"
+            app:backgroundTint="#6FE2B3"
+            app:tint="@color/white"
+            app:fabSize="auto"
+            app:rippleColor="#226FE2B3"/>
 
-    <TextView
-        android:id="@+id/recipe_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="65dp"
-        android:layout_marginBottom="28dp"
-        android:text="TextView"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <TextView
+                style="@style/AppTheme.SubheaderBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Review"/>
+            <EditText
+                android:id="@+id/reviewFormName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_name" />
+
+
+            <me.zhanghai.android.materialratingbar.MaterialRatingBar
+                android:id="@+id/reviewFormRating"
+                style="@style/Widget.MaterialRatingBar.RatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:progressTint="@color/orange"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:maxHeight="24dp"
+                android:minHeight="24dp" />
+
+            <EditText
+                android:id="@+id/reviewFormText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:hint="@string/hint_review" />
+
+            <!-- Back button -->
+            <ImageView
+                android:id="@+id/camera_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/ic_baseline_photo_camera_24" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/uploadedReviewImage"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp" />
+                <!-- Back button -->
+                <ImageView
+                    android:id="@+id/delete_photo_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="2dp"
+                    app:srcCompat="@drawable/ic_close_white_24px" />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

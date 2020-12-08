@@ -1,4 +1,4 @@
-package com.iat359.biteme
+package com.iat359.biteme.kotlin.database
 
 import android.provider.BaseColumns
 
@@ -11,6 +11,5 @@ object RecipeReaderContract {
         const val IMAGE_NAME = "image_name"
         const val INGREDIENTS = "ingredients"
         const val RECIPE_STEPS = "recipe_steps"
-        const val RATING = "rating"
     }
 }

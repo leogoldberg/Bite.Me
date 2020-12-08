@@ -1,4 +1,4 @@
-package com.iat359.biteme
+package com.iat359.biteme.kotlin.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -9,6 +9,8 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.iat359.biteme.R
+import com.iat359.biteme.kotlin.model.Recipe
 
 class CardStackAdapter(
         private var recipes: List<Recipe> = emptyList(),
@@ -23,10 +25,8 @@ class CardStackAdapter(
         val recipe = recipes[position]
         holder.name.text = "${recipe.id}. ${recipe.name}"
 
-        val drawableResourceId = context.resources.getIdentifier(recipe.imageName, "drawable", context.packageName)
-
         Glide.with(holder.image)
-                .load(drawableResourceId)
+                .load(recipe.imageName)
                 .into(holder.image)
         holder.itemView.setOnClickListener { v ->
             Toast.makeText(v.context, recipe.name, Toast.LENGTH_SHORT).show()

@@ -3,7 +3,12 @@
     <string name="open">Open</string>
     <string name="close">Close</string>
     <string name="bookmark">Bookmark</string>
-    <string name="review">Review</string>
+    <string name="review">Add Review</string>
     <string name="position">POSITION</string>
     <string name="view_recipe">REVIEW_RECIPE</string>
+    <string name="divider_bullet">•</string>
+    <string name="message_no_reviews">Be the first to leave a review!</string>
+    <string name="hint_review">How did it turn out?</string>
+    <string name="hint_name">Enter your name</string>
+    <string name="fmt_num_ratings" translatable="false">(%d)</string>
 </resources>

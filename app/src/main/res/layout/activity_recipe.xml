@@ -1,99 +1,213 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RecipeActivity">
+    tools:context=".kotlin.RecipeActivity">
 
-    <ScrollView
+    <RelativeLayout
+        android:id="@+id/header"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:elevation="4dp">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <ImageView
+            android:id="@+id/recipeImage"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="170dp"
+            android:alpha="1.0"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/borscht" />
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:background="@drawable/gradient_up" />
 
-            <TextView
-                android:id="@+id/tvRecipeName"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
-                android:text="TextView"
-                android:textSize="20dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+        <!-- Back button -->
+        <ImageView
+            android:id="@+id/recipeButtonBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:layout_alignLeft="@+id/recipeName"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/ic_close_white_24px" />
 
-            <ImageView
-                android:id="@+id/recipeImage"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tvRecipeName" />
+        <TextView
+            android:id="@+id/recipeName"
+            style="@style/AppTheme.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/recipeRating"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            tools:text="Some Recipe" />
 
-            <TextView
-                android:id="@+id/tvIngredients"
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="100dp"
-                android:text="TextView"
-                android:textSize="15dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.182"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/recipeImage" />
+        <me.zhanghai.android.materialratingbar.MaterialRatingBar
+            android:id="@+id/recipeRating"
+            style="@style/Widget.MaterialRatingBar.RatingBar"
+            android:isIndicator="true"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignLeft="@+id/recipeName"
+            android:layout_alignBottom="@+id/recipeImage"
+            android:progressBackgroundTint="@color/grey"
+            app:mrb_progressTint="@color/orange" />
 
-            <TextView
-                android:id="@+id/tvRecipe"
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="50dp"
-                android:layout_marginTop="52dp"
-                android:layout_marginEnd="50dp"
-                android:text="TextView"
-                android:textSize="15dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.182"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tvIngredients" />
+        <TextView
+            android:id="@+id/recipeNumRatings"
+            style="@style/AppTheme.Body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/recipeRating"
+            android:layout_alignTop="@+id/recipeRating"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@+id/recipeRating"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            tools:text="(10)" />
+    </RelativeLayout>
 
-            <TextView
-                android:id="@+id/tvRating"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
-                android:text="TextView"
-                android:textSize="20dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/tvRecipe" />
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </ScrollView>
-    <Button
-        android:id="@+id/reviewButton"
-        android:layout_width="120dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="20dp"
-        android:text="@string/review"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/bookmarkButton"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/bookmarkButton"
-        android:layout_width="120dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="50dp"
-        android:text="@string/bookmark"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/reviewButton"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintVertical_bias="0.100000024" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/header"
+        android:layout_alignParentRight="true"
+        app:tint="@android:color/white"
+        android:layout_marginBottom="-28dp"
+        android:layout_marginRight="16dp"
+        app:srcCompat="@drawable/ic_baseline_bookmark_24" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/recipe_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_below="@+id/header">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/AppTheme.SubheaderBold"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ingredients"
+              />
+
+            <LinearLayout
+                android:id="@+id/ingredientsLayout"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+<!--            <TextView-->
+<!--                style="@style/AppTheme.Body1"-->
+<!--                android:id="@+id/tvIngredients"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Some Ingredients"-->
+<!--                />-->
+
+            <TextView
+                style="@style/AppTheme.SubheaderBold"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:text="Directions" />
+
+            <LinearLayout
+                android:id="@+id/stepsLayout"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            </LinearLayout>
+
+<!--            <TextView-->
+<!--                style="@style/AppTheme.Body1"-->
+<!--                android:id="@+id/tvRecipe"-->
+<!--                android:layout_width="300dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginEnd="50dp"-->
+<!--                android:text="Some steps" />-->
+
+            <TextView
+                style="@style/AppTheme.SubheaderBold"
+                android:id="@+id/reviewHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Reviews (0)" />
+
+            <View
+                style="@style/AppTheme.Divider"
+                android:layout_below="@id/ratingItemText"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/reviewButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/review" />
+
+            <View
+                style="@style/AppTheme.Divider"
+                android:layout_below="@id/ratingItemText"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+
+
+                <!-- Ratings -->
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerReviews"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                    android:background="@android:color/transparent"
+                    android:clipToPadding="false"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="28dp"
+                    android:visibility="visible"
+                    tools:listitem="@layout/item_review" />
+
+                <!-- View for empty reviews -->
+                <LinearLayout
+                    android:id="@+id/viewEmptyReviews"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical"
+                    android:visibility="visible"
+                    tools:visibility="visible">
+
+                    <TextView
+                        style="@style/AppTheme.Body1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/message_no_reviews"
+                        android:textColor="@color/greyDisabled" />
+
+                </LinearLayout>
+            </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

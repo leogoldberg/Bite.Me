@@ -1,8 +1,11 @@
-package com.iat359.biteme
+package com.iat359.biteme.kotlin
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.iat359.biteme.R
+import com.iat359.biteme.kotlin.adapter.RecipeListAdapter
+import com.iat359.biteme.kotlin.database.RecipeDatabase
+import com.iat359.biteme.kotlin.database.RecipeReaderContract
 import kotlinx.android.synthetic.main.activity_recipe_list.*
 
 class RecipeListActivity : BaseActivity() {
