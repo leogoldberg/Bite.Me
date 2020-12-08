@@ -50,14 +50,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/ratingItemName"
-        android:layout_marginBottom="4dp"
+        android:layout_marginBottom="10dp"
         android:layout_marginTop="4dp"
         android:textColor="@color/greyPrimary"
         tools:text="I thought it was pretty great! And I really have a ton to say wow." />
 
+    <ImageView
+        android:id="@+id/ratingImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ratingItemText"
+        />
     <View
         style="@style/AppTheme.Divider"
-        android:layout_below="@id/ratingItemText"
+        android:layout_below="@id/ratingImageView"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="8dp"/>
 </RelativeLayout>

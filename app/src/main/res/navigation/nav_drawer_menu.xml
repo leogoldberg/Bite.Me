@@ -6,8 +6,4 @@
     <item
         android:id="@+id/bookmarked_recipes"
         android:title="Bookmarked Recipes" />
-    <item
-        android:id="@+id/recipe_reviews"
-        android:title="Recipe Reviews" />
-
 </menu>

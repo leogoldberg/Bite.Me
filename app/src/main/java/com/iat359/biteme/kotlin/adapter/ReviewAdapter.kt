@@ -2,7 +2,9 @@ package com.iat359.biteme.kotlin.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import com.google.firebase.firestore.Query
 import com.google.firebase.firestore.ktx.toObject
 
@@ -35,6 +37,10 @@ open class ReviewAdapter(query: Query) : FirestoreAdapter<ReviewAdapter.ViewHold
             binding.ratingItemName.text = review.reviewer_name
             binding.ratingItemRating.rating = review.rating.toFloat()
             binding.ratingItemText.text = review.review_body
+
+            Glide.with(binding.ratingImageView)
+                    .load(review.photoUrl)
+                    .into(binding.ratingImageView)
 
             if (review.timestamp != null) {
                 binding.ratingItemDate.text = FORMAT.format(review.timestamp)

@@ -151,7 +151,7 @@
                 android:id="@+id/reviewHeader"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="10dp"
                 android:text="Reviews (0)" />
 
             <View
@@ -184,7 +184,6 @@
                     android:background="@android:color/transparent"
                     android:clipToPadding="false"
                     android:paddingBottom="16dp"
-                    android:paddingTop="28dp"
                     android:visibility="visible"
                     tools:listitem="@layout/item_review" />
 

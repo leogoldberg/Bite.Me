@@ -41,24 +41,23 @@ class SwipeActivity : BaseActivity(), CardStackListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        // check if a position has been saved for the app
+        setContentView(R.layout.activity_swipe)
 
         // Launch Intro page if first time opening app
-        val isFirstRun = getSharedPreferences("PREFERENCE", MODE_PRIVATE).getBoolean("isFirstRun", true)
+        val isFirstRun = getPreferences(Context.MODE_PRIVATE).getBoolean("isFirstRun", true)
         if(isFirstRun) {
-            getSharedPreferences("PREFERENCE", MODE_PRIVATE).edit()
+            getPreferences(Context.MODE_PRIVATE).edit()
                 .putBoolean("isFirstRun", false).apply();
             startActivity(Intent(this, StartActivity::class.java))
         }
 
-        // check if a position has been saved for the app
-        setContentView(R.layout.activity_swipe)
+
+        setupCardStackView()
+        setupButton()
 
         sensorManager = getSystemService(SENSOR_SERVICE) as SensorManager
         sensorManager.registerListener(sensorListener, sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER), SensorManager.SENSOR_DELAY_NORMAL)
-
-        setupNavigation()
-        setupCardStackView()
-        setupButton()
     }
 
     override fun onPause() {
@@ -114,33 +113,6 @@ class SwipeActivity : BaseActivity(), CardStackListener {
     override fun onCardDisappeared(view: View, position: Int) {
         val textView = view.findViewById<TextView>(R.id.recipe_name)
         Log.d("CardStackView", "onCardDisappeared: ($position) ${textView.text}")
-    }
-
-    private fun setupNavigation() {
-//        // Toolbar
-//        val toolbar = findViewById<Toolbar>(R.id.toolbar)
-//        setSupportActionBar(toolbar)
-//
-//        // DrawerLayout
-//        val actionBarDrawerToggle = ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.open_drawer, R.string.close_drawer)
-//        actionBarDrawerToggle.syncState()
-//        drawerLayout.addDrawerListener(actionBarDrawerToggle)
-//
-//        // NavigationView
-//        val navigationView = findViewById<NavigationView>(R.id.navigation_view)
-//        navigationView.setNavigationItemSelectedListener { menuItem ->
-//            when (menuItem.itemId) {
-//                R.id.reload -> reload()
-//                R.id.add_spot_to_first -> addFirst(1)
-//                R.id.add_spot_to_last -> addLast(1)
-//                R.id.remove_spot_from_first -> removeFirst(1)
-//                R.id.remove_spot_from_last -> removeLast(1)
-//                R.id.replace_first_spot -> replace()
-//                R.id.swap_first_for_last -> swap()
-//            }
-//            drawerLayout.closeDrawers()
-//            true
-//        }
     }
 
     private fun openRecipe() {
@@ -222,7 +194,7 @@ class SwipeActivity : BaseActivity(), CardStackListener {
             }
         }
     }
-//
+
     private fun paginate() {
         val old = adapter.getRecipes()
         val new = old.plus(createRecipes())
@@ -232,111 +204,6 @@ class SwipeActivity : BaseActivity(), CardStackListener {
         result.dispatchUpdatesTo(adapter)
     }
 
-//    private fun reload() {
-//        val old = adapter.getRecipes()
-//        val new = createRecipes()
-//        val callback = RecipeDiffCallback(old, new)
-//        val result = DiffUtil.calculateDiff(callback)
-//        adapter.setRecipes(new)
-//        result.dispatchUpdatesTo(adapter)
-//        manager.topPosition = 0
-//    }
-
-//    private fun addFirst(size: Int) {
-//        val old = adapter.getRecipes()
-//        val new = mutableListOf<Recipe>().apply {
-//            addAll(old)
-//            for (i in 0 until size) {
-//                add(manager.topPosition, createRecipe())
-//            }
-//        }
-//        val callback = RecipeDiffCallback(old, new)
-//        val result = DiffUtil.calculateDiff(callback)
-//        adapter.setRecipes(new)
-//        result.dispatchUpdatesTo(adapter)
-//    }
-//
-//    private fun addLast(size: Int) {
-//        val old = adapter.getRecipes()
-//        val new = mutableListOf<Recipe>().apply {
-//            addAll(old)
-//            addAll(List(size) { createRecipe() })
-//        }
-//        val callback = RecipeDiffCallback(old, new)
-//        val result = DiffUtil.calculateDiff(callback)
-//        adapter.setRecipes(new)
-//        result.dispatchUpdatesTo(adapter)
-//    }
-//
-//    private fun removeFirst(size: Int) {
-//        if (adapter.getRecipes().isEmpty()) {
-//            return
-//        }
-//
-//        val old = adapter.getRecipes()
-//        val new = mutableListOf<Recipe>().apply {
-//            addAll(old)
-//            for (i in 0 until size) {
-//                removeAt(manager.topPosition)
-//            }
-//        }
-//        val callback = RecipeDiffCallback(old, new)
-//        val result = DiffUtil.calculateDiff(callback)
-//        adapter.setRecipes(new)
-//        result.dispatchUpdatesTo(adapter)
-//    }
-//
-//    private fun removeLast(size: Int) {
-//        if (adapter.getRecipes().isEmpty()) {
-//            returng
-//        }
-//
-//        val old = adapter.getRecipes()
-//        val new = mutableListOf<Recipe>().apply {
-//            addAll(old)
-//            for (i in 0 until size) {
-//                removeAt(this.size - 1)
-//            }
-//        }
-//        val callback = RecipeDiffCallback(old, new)
-//        val result = DiffUtil.calculateDiff(callback)
-//        adapter.setRecipes(new)
-//        result.dispatchUpdatesTo(adapter)
-//    }
-//
-//    private fun replace() {
-//        val old = adapter.getRecipes()
-//        val new = mutableListOf<Recipe>().apply {
-//            addAll(old)
-//            removeAt(manager.topPosition)
-//            add(manager.topPosition, createRecipe())
-//        }
-//        adapter.setRecipes(new)
-//        adapter.notifyItemChanged(manager.topPosition)
-//    }
-//
-//    private fun swap() {
-//        val old = adapter.getRecipes()
-//        val new = mutableListOf<Recipe>().apply {
-//            addAll(old)
-//            val first = removeAt(manager.topPosition)
-//            val last = removeAt(this.size - 1)
-//            add(manager.topPosition, last)
-//            add(first)
-//        }
-//        val callback = RecipeDiffCallback(old, new)
-//        val result = DiffUtil.calculateDiff(callback)
-//        adapter.setRecipes(new)
-//        result.dispatchUpdatesTo(adapter)
-//    }
-
-//    private fun createRecipe(): Spot {
-//        return Spot(
-//                name = "Yasaka Shrine",
-//                city = "Kyoto",
-//                url = "https://source.unsplash.com/Xq1ntWruZQI/600x800"
-//        )
-//    }
     private fun createRecipes(): List<Recipe> {
         return recipesCached;
     }

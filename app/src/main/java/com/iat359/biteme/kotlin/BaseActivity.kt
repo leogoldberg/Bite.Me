@@ -46,8 +46,6 @@ open class BaseActivity : AppCompatActivity() {
                     val intent = Intent(this, RecipeListActivity::class.java)
                     startActivity(intent)
                 }
-                R.id.recipe_reviews -> Toast.makeText(applicationContext,
-                        "Clicked item 3", Toast.LENGTH_SHORT).show()
             }
             true
         }
