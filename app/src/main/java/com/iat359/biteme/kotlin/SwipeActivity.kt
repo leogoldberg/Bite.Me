@@ -198,8 +198,6 @@ class SwipeActivity : BaseActivity(), CardStackListener {
     private fun paginate() {
         val old = adapter.getRecipes()
         val new = old.plus(createRecipes())
-        val callback = RecipeDiffCallback(old, new)
-        val result = DiffUtil.calculateDiff(callback)
         adapter.setRecipes(new)
         result.dispatchUpdatesTo(adapter)
     }
